@@ -1,6 +1,8 @@
-import requests
-
 # Original script to download all patch notes <= 7.37d
+
+import requests
+import json
+
 list_patches = [
     "7.20", "7.20b", "7.20c", "7.20d", "7.20e", 
     "7.21", "7.21b", "7.21c", "7.21d", 
@@ -29,6 +31,7 @@ for p in list_patches:
     data = response.json()
     # Save into a file
     # Save the JSON response to a file for JSONLoader to read
-    with open(f"./patchnotes/{p}.json", "w") as f:
-        import json
+    with open(f"../patchnotes/{p}.json", "w") as f:
         json.dump(data, f)
+        print(f"Saved {p}.json")
+    
