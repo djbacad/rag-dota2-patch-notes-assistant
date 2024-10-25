@@ -13,7 +13,7 @@ class ConvertPatchNotesToDocuments:
     heroes_response = requests.get(url_heroes)
     json_heroes_map = heroes_response.json()
     df_heroes = pd.DataFrame(json_heroes_map)
-    dict_heroes_map = df_heroes.set_index('id')['localized_name'].to_dict()
+    dict_heroes_map = df_heroes.set_index(df_heroes['id'].astype(str))['localized_name'].to_dict()
     return dict_heroes_map
 
   # For generating heroes abilities mapper
@@ -44,6 +44,15 @@ class ConvertPatchNotesToDocuments:
       if str_id in dict_map:
         doc.metadata[field] = dict_map[str_id]  # Replace with the item name4
       doc.page_content = f"{field_name}: {doc.metadata[field]}. {doc.page_content}"  
+    return documents
+
+  def add_patch_metadata(self, documents):
+    for doc in documents:
+      # Extract the patch version from the source (assuming file path is in 'source')
+      source = doc.metadata.get("source", "")
+      if source:
+        patch_version = source.split("\\")[-1].replace(".json", "")
+        doc.metadata["patch"] = patch_version
     return documents
 
   # Main Logic
@@ -199,6 +208,9 @@ class ConvertPatchNotesToDocuments:
         field="item_id",
         field_name="Item")
     )
-    # Append to docs_all
+    # (5) Append to docs_all
     docs_all.append(docs_items)
+    docs_all = [doc for doc_list in docs_all for doc in doc_list]
+    # (6) Insert patch version as metadata
+    docs_all = self.add_patch_metadata(docs_all)
     return docs_all
