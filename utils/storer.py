@@ -50,6 +50,15 @@ class ConvertPatchNotesToDocuments:
   def convert(self):
     # Initialize empty list for document objects storage
     docs_all = []
+
+    # Define the mappers
+    # Abilities mapper
+    dict_abilities_map = self.get_heroes_abilities_mapper()
+    # Heroes mapper
+    dict_heroes_map = self.get_heroes_mapper()
+    # Items mapper
+    dict_items_map = self.get_items_mapper()
+    
     # (1) Heroes' abilities
     def extract_hero_abilities_metadata(record: dict, metadata: dict) -> dict:
       metadata["hero_id"] = record.get("hero_id")
@@ -75,6 +84,24 @@ class ConvertPatchNotesToDocuments:
 
     # Generate doc objects via JSONLoader
     docs_heroes_abilities = loader_heroes_abilities.load()
+
+    # Replace hero ids with actual names
+    docs_heroes_abilities = (
+      self.replace_id_with_name(
+        documents=docs_heroes_abilities, 
+        dict_map=dict_heroes_map,
+        field="hero_id",
+        field_name="Hero")
+    )
+    # Replace ability ids with actual names
+    docs_heroes_abilities = (
+      self.replace_id_with_name(
+        documents=docs_heroes_abilities, 
+        dict_map=dict_abilities_map,
+        field="ability_id",
+        field_name="Ability")
+    )
+    
     # Append to docs_all
     docs_all.append(docs_heroes_abilities)
 
@@ -99,6 +126,14 @@ class ConvertPatchNotesToDocuments:
   
     # Generate doc objects via JSONLoader
     docs_heroes_talents = loader_heroes_talents.load()
+    # Replace hero ids with actual names
+    docs_heroes_talents = (
+      self.replace_id_with_name(
+        documents=docs_heroes_talents, 
+        dict_map=dict_heroes_map,
+        field="hero_id",
+        field_name="Hero")
+    )
     # Append to docs_all
     docs_all.append(docs_heroes_talents)
 
@@ -123,6 +158,14 @@ class ConvertPatchNotesToDocuments:
   
     # Generate doc objects via JSONLoader
     docs_heroes_base = loader_heroes_base.load()
+    # Replace hero ids with actual names
+    docs_heroes_base = (
+      self.replace_id_with_name(
+        documents=docs_heroes_base, 
+        dict_map=dict_heroes_map,
+        field="hero_id",
+        field_name="Hero")
+    )
     # Append to docs_all
     docs_all.append(docs_heroes_base)
 
@@ -148,31 +191,14 @@ class ConvertPatchNotesToDocuments:
   
     # Generate doc objects via JSONLoader
     docs_items = loader_items.load()
+    # Replace item ids with actual names
+    docs_items = (
+      self.replace_id_with_name(
+        documents=docs_items, 
+        dict_map=dict_items_map,
+        field="item_id",
+        field_name="Item")
+    )
     # Append to docs_all
     docs_all.append(docs_items)
-
-
-
-
-
-
-
-
-    # Generate abilities mapper
-    dict_abilities_map = self.get_heroes_abilities_mapper()
-    # Generate heroes mapper
-    dict_abilities_map = self.get_heroes_mapper()
-    # Generate items mapper
-    dict_abilities_map = self.get_items_mapper()
-
-
-    # Replace ids with actual names
-    docs_heroes_abilities = (
-      self.replace_id_with_name(
-        documents=docs, 
-        dict_map=dict_abilities_map,
-        field="ability_id",
-        field_name="Ability")
-    )
-    docs_all.append(docs_heroes_abilities)
     return docs_all
