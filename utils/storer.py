@@ -111,7 +111,7 @@ class ConvertPatchNotesToDocuments:
 
     try:
       loader_heroes_base = JSONLoader(
-        file_path=f"patchnotes_modified/{patch_note}",
+        file_path=f"patchnotes_modified/{self.patch_note}",
         jq_schema=".heroes[]",
         content_key="hero_notes",
         text_content=False,
@@ -125,6 +125,32 @@ class ConvertPatchNotesToDocuments:
     docs_heroes_base = loader_heroes_base.load()
     # Append to docs_all
     docs_all.append(docs_heroes_base)
+
+    # (4) Items
+    # Items
+    def extract_metadata(record: dict, metadata: dict) -> dict:
+      metadata["item_id"] = record.get("ability_id")
+      metadata["category"] = "items"
+      return metadata
+
+    try:
+      loader_items = JSONLoader(
+        file_path=f"patchnotes_modified/{self.patch_note}",
+        jq_schema=".items[]",
+        content_key="ability_notes",
+        is_content_key_jq_parsable=False,
+        text_content=False,
+        metadata_func=extract_metadata
+      )
+    except Exception as e:
+      print(f"Error processing patch note {self.patch_note}: {e}")
+      pass
+  
+    # Generate doc objects via JSONLoader
+    docs_items = loader_items.load()
+    # Append to docs_all
+    docs_all.append(docs_items)
+
 
 
 
