@@ -87,32 +87,31 @@ class ConvertPatchNotesToDocuments:
         text_content=False,
         metadata_func=extract_hero_abilities_metadata
       )
+
+      # Generate doc objects via JSONLoader
+      docs_heroes_abilities = loader_heroes_abilities.load()
+
+      # Replace hero ids with actual names
+      docs_heroes_abilities = (
+        self.replace_id_with_name(
+          documents=docs_heroes_abilities, 
+          dict_map=dict_heroes_map,
+          field="hero_id",
+          field_name="Hero")
+      )
+      # Replace ability ids with actual names
+      docs_heroes_abilities = (
+        self.replace_id_with_name(
+          documents=docs_heroes_abilities, 
+          dict_map=dict_abilities_map,
+          field="ability_id",
+          field_name="Ability")
+      )
+      # Append to docs_all
+      docs_all.append(docs_heroes_abilities)
     except Exception as e:
-      print(f"Error processing patch note {self.patch_note}: {e}")
+      print(f"Error processing heroes' abilities patch note {self.patch_note}: {e}")
       pass
-
-    # Generate doc objects via JSONLoader
-    docs_heroes_abilities = loader_heroes_abilities.load()
-
-    # Replace hero ids with actual names
-    docs_heroes_abilities = (
-      self.replace_id_with_name(
-        documents=docs_heroes_abilities, 
-        dict_map=dict_heroes_map,
-        field="hero_id",
-        field_name="Hero")
-    )
-    # Replace ability ids with actual names
-    docs_heroes_abilities = (
-      self.replace_id_with_name(
-        documents=docs_heroes_abilities, 
-        dict_map=dict_abilities_map,
-        field="ability_id",
-        field_name="Ability")
-    )
-    
-    # Append to docs_all
-    docs_all.append(docs_heroes_abilities)
 
     # (2) Heroes' talents
     # Heroes Talents
@@ -129,26 +128,25 @@ class ConvertPatchNotesToDocuments:
         text_content=False,
         metadata_func=extract_metadata_heroes_talents
       )
+      # Generate doc objects via JSONLoader
+      docs_heroes_talents = loader_heroes_talents.load()
+      # Replace hero ids with actual names
+      docs_heroes_talents = (
+        self.replace_id_with_name(
+          documents=docs_heroes_talents, 
+          dict_map=dict_heroes_map,
+          field="hero_id",
+          field_name="Hero")
+      )
+      # Append to docs_all
+      docs_all.append(docs_heroes_talents)
     except Exception as e:
-      print(f"Error processing patch note {self.patch_note}: {e}")
+      print(f"Error processing heroes' talents patch note {self.patch_note}: {e}")
       pass
   
-    # Generate doc objects via JSONLoader
-    docs_heroes_talents = loader_heroes_talents.load()
-    # Replace hero ids with actual names
-    docs_heroes_talents = (
-      self.replace_id_with_name(
-        documents=docs_heroes_talents, 
-        dict_map=dict_heroes_map,
-        field="hero_id",
-        field_name="Hero")
-    )
-    # Append to docs_all
-    docs_all.append(docs_heroes_talents)
-
     # (3) Heroes' base
     # Heroes Base
-    def extract_metadata(record: dict, metadata: dict) -> dict:
+    def extract_metadata_heroes_base(record: dict, metadata: dict) -> dict:
       metadata["hero_id"] = record.get("hero_id")
       metadata["category"] = "heroes-base"
       return metadata
@@ -159,28 +157,27 @@ class ConvertPatchNotesToDocuments:
         jq_schema=".heroes[]",
         content_key="hero_notes",
         text_content=False,
-        metadata_func=extract_metadata
+        metadata_func=extract_metadata_heroes_base
       )
+      # Generate doc objects via JSONLoader
+      docs_heroes_base = loader_heroes_base.load()
+      # Replace hero ids with actual names
+      docs_heroes_base = (
+        self.replace_id_with_name(
+          documents=docs_heroes_base, 
+          dict_map=dict_heroes_map,
+          field="hero_id",
+          field_name="Hero")
+      )
+      # Append to docs_all
+      docs_all.append(docs_heroes_base)
     except Exception as e:
-      print(f"Error processing patch note {self.patch_note}: {e}")
+      print(f"Error processing heroes' bases for patch note {self.patch_note}: {e}")
       pass
   
-    # Generate doc objects via JSONLoader
-    docs_heroes_base = loader_heroes_base.load()
-    # Replace hero ids with actual names
-    docs_heroes_base = (
-      self.replace_id_with_name(
-        documents=docs_heroes_base, 
-        dict_map=dict_heroes_map,
-        field="hero_id",
-        field_name="Hero")
-    )
-    # Append to docs_all
-    docs_all.append(docs_heroes_base)
-
     # (4) Items
     # Items
-    def extract_metadata(record: dict, metadata: dict) -> dict:
+    def extract_metadata_items(record: dict, metadata: dict) -> dict:
       metadata["item_id"] = record.get("ability_id")
       metadata["category"] = "items"
       return metadata
@@ -192,24 +189,25 @@ class ConvertPatchNotesToDocuments:
         content_key="ability_notes",
         is_content_key_jq_parsable=False,
         text_content=False,
-        metadata_func=extract_metadata
+        metadata_func=extract_metadata_items
       )
+      # Generate doc objects via JSONLoader
+      docs_items = loader_items.load()
+      # Replace item ids with actual names
+      docs_items = (
+        self.replace_id_with_name(
+          documents=docs_items, 
+          dict_map=dict_items_map,
+          field="item_id",
+          field_name="Item")
+      )
+      # Append to docs_all
+      docs_all.append(docs_items)
     except Exception as e:
-      print(f"Error processing patch note {self.patch_note}: {e}")
+      print(f"Error processing items for patch note {self.patch_note}: {e}")
       pass
   
-    # Generate doc objects via JSONLoader
-    docs_items = loader_items.load()
-    # Replace item ids with actual names
-    docs_items = (
-      self.replace_id_with_name(
-        documents=docs_items, 
-        dict_map=dict_items_map,
-        field="item_id",
-        field_name="Item")
-    )
-    # (5) Append to docs_all
-    docs_all.append(docs_items)
+    # (5) Get docs_all
     docs_all = [doc for doc_list in docs_all for doc in doc_list]
     # (6) Insert patch version as metadata
     docs_all = self.add_patch_metadata(docs_all)
