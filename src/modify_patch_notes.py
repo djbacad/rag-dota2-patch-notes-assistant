@@ -15,7 +15,7 @@ def add_default_hero_values(data):
     if "hero_notes" not in hero:
       hero["hero_notes"] = ["No updates/changes"]
     if "abilities" not in hero:
-      hero["abilities"] = [{'ability_id': np.nan}, {"ability_notes":["No updates/changes"]}]
+      hero["abilities"] = [{'ability_id': None}, {"ability_notes":["No updates/changes"]}]
 
 for patch_note in list_patch_notes:
   # Load original
@@ -25,4 +25,4 @@ for patch_note in list_patch_notes:
   # Save the modified
   with open(f"../patchnotes_modified/{patch_note}", 'w') as f:
     json.dump(json_data, f)
-    print(f"Modified {patch_note}.json")
+    print(f"Modified {patch_note}")

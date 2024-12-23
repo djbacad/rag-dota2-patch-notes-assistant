@@ -82,7 +82,7 @@ class ConvertPatchNotesToDocuments:
     try:
       loader_heroes_abilities = JSONLoader(
         file_path=f"./patchnotes_modified/{self.patch_note}",
-        jq_schema=".heroes[]",
+        jq_schema="(.heroes // [])[]",  # new: fallback to empty array if null
         content_key="abilities",
         text_content=False,
         metadata_func=extract_hero_abilities_metadata
@@ -123,7 +123,7 @@ class ConvertPatchNotesToDocuments:
     try:
       loader_heroes_talents = JSONLoader(
         file_path=f"patchnotes_modified/{self.patch_note}",
-        jq_schema=".heroes[]",
+        jq_schema="(.heroes // [])[]",  # new: fallback to empty array if null
         content_key="talent_notes",
         text_content=False,
         metadata_func=extract_metadata_heroes_talents
@@ -154,7 +154,7 @@ class ConvertPatchNotesToDocuments:
     try:
       loader_heroes_base = JSONLoader(
         file_path=f"patchnotes_modified/{self.patch_note}",
-        jq_schema=".heroes[]",
+        jq_schema="(.heroes // [])[]",  # new: fallback to empty array if null
         content_key="hero_notes",
         text_content=False,
         metadata_func=extract_metadata_heroes_base
@@ -178,6 +178,8 @@ class ConvertPatchNotesToDocuments:
     # (4) Items
     # Items
     def extract_metadata_items(record: dict, metadata: dict) -> dict:
+      # Ensure 'postfix_lines' (or other optional fields) is present
+      record.setdefault("postfix_lines", None)  
       metadata["item_id"] = record.get("ability_id")
       metadata["category"] = "items"
       return metadata
@@ -185,7 +187,7 @@ class ConvertPatchNotesToDocuments:
     try:
       loader_items = JSONLoader(
         file_path=f"patchnotes_modified/{self.patch_note}",
-        jq_schema=".items[]",
+        jq_schema="(.items // [])[]",  # new: fallback to empty array if null
         content_key="ability_notes",
         is_content_key_jq_parsable=False,
         text_content=False,

@@ -1,4 +1,4 @@
-# Original script to download all patch notes <= 7.37d
+# Original script to download all patch notes <= 7.37e
 
 import requests
 import json
@@ -21,7 +21,7 @@ list_patches = [
     "7.34", "7.34b", "7.34c", "7.34d", "7.34e",
     "7.35", "7.35b", "7.35c", "7.35d", 
     "7.36", "7.36a", "7.36b", "7.36c", 
-    "7.37", "7.37b", "7.37c", "7.37d"
+    "7.37", "7.37b", "7.37c", "7.37d", "7.37e"
 ]
 
 for p in list_patches:
