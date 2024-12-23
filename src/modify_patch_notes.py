@@ -15,7 +15,7 @@ def add_default_hero_values(data):
     if "hero_notes" not in hero:
       hero["hero_notes"] = ["No updates/changes"]
     if "abilities" not in hero:
-      hero["abilities"] = [{'ability_id': None}, {"ability_notes":["No updates/changes"]}]
+      hero["abilities"] = [{'ability_id': np.nan}, {"ability_notes":["No updates/changes"]}]
 
 for patch_note in list_patch_notes:
   # Load original
