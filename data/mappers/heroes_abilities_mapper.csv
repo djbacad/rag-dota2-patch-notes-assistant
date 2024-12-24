@@ -1,0 +1,2895 @@
+id,name
+0,dota base ability
+82,bear empty1
+83,bear empty2
+84,courier autodeliver
+195,ringmaster spotlight
+212,item ring of aquila
+275,item trident
+276,item combo breaker
+296,tiny craggy exterior
+303,special bonus unique jakiro dualbreath cooldown
+314,lone druid entangling claws
+315,special bonus unique invoker 11
+316,riki permanent invisibility
+318,special bonus unique lich 5
+319,kunkka torrent storm
+320,enchantress bunny hop
+321,rattletrap overclocking
+322,pudge eject
+323,special bonus unique luna lunar orbit glaive count
+324,special bonus unique earth spirit 4
+328,item mango tree
+329,meepo megameepo fling
+332,special bonus unique pudge 5
+333,lycan wolf bite
+337,luna lunar grace
+338,treant natures grasp
+339,special bonus unique treant 8
+340,special bonus unique treant 9
+341,special bonus unique treant 10
+342,special bonus unique treant 11
+343,drow ranger multishot
+344,special bonus exp boost 50
+345,special bonus unique clinkz 6
+346,special bonus unique enigma 4
+347,special bonus unique riki 6
+348,special bonus unique puck 5
+350,special bonus unique necrophos 5
+351,special bonus unique alchemist 6
+352,ringmaster tame the beasts
+353,special bonus unique ember spirit 6
+380,ringmaster tame the beasts crack
+382,special bonus unique snapfire 6
+383,ringmaster the box
+384,special bonus unique snapfire 7
+385,ringmaster wheel
+386,ringmaster impalement
+387,ringmaster empty souvenir
+388,ringmaster dark carnival souvenirs
+389,ringmaster funhouse mirror
+390,ringmaster whoopee cushion
+391,miniboss radiance
+392,ringmaster strongman tonic
+393,roshan halloween levels
+394,roshan halloween summon
+395,roshan halloween fireball
+396,special bonus unique ringmaster whip radius
+397,special bonus unique ringmaster box cast range
+398,special bonus unique ringmaster the box strong dispel and flying
+399,special bonus unique ringmaster whip damage
+400,special bonus unique ringmaster wheel radius
+401,special bonus unique lion 5
+402,special bonus unique nyx 4
+403,special bonus unique ogre magi 4
+404,special bonus unique omniknight 5
+405,special bonus unique oracle 5
+406,special bonus unique phoenix 6
+407,special bonus unique puck 6
+408,special bonus unique pudge 6
+409,special bonus attack speed 55
+410,special bonus unique silencer 6
+411,special bonus unique skywrath 6
+412,special bonus unique techies 5
+413,special bonus unique tinker 5
+414,special bonus unique tusk 7
+416,special bonus unique venomancer 7
+417,special bonus unique witch doctor 6
+418,special bonus unique winter wyvern 5
+419,juggernaut swift slash
+420,special bonus unique dark seer 5
+421,special bonus unique keeper of the light 5
+422,special bonus unique keeper of the light 6
+423,special bonus unique lone druid 11
+424,special bonus unique ursa 7
+425,terrorblade terror wave
+426,special bonus unique phoenix 7
+427,special bonus attack damage 75
+428,special bonus cooldown reduction 6
+429,special bonus hp 475
+430,special bonus cast range 325
+431,special bonus evasion 40
+432,special bonus lifesteal 8
+433,special bonus lifesteal 12
+434,special bonus spell lifesteal 12
+435,special bonus agility 80
+436,special bonus mana break 15
+437,special bonus strength 11
+438,special bonus mp 275
+439,special bonus corruption 25
+440,special bonus mana reduction 11
+441,special bonus spell lifesteal 25
+442,special bonus attack damage 80
+443,special bonus cast range 225
+444,special bonus spell amplify 11
+445,special bonus 30 crit 2
+446,special bonus agility 5
+447,special bonus strength 16
+448,special bonus spell block 18
+449,special bonus reincarnation 300
+450,special bonus attack base damage 25
+451,special bonus evasion 8
+452,special bonus evasion 16
+453,special bonus unique centaur 5
+454,special bonus agility 7
+455,special bonus cleave 140
+456,special bonus spell amplify 16
+457,special bonus night vision 800
+458,special bonus hp 650
+459,special bonus unique doom 7
+460,special bonus attack damage 200
+461,special bonus unique enigma 6
+462,special bonus unique huskar 6
+463,special bonus unique legion commander 6
+464,special bonus unique lifestealer 4
+465,special bonus unique lion 6
+466,special bonus unique mars spear cooldown
+467,special bonus hp 450
+468,special bonus unique shadow shaman 6
+469,special bonus strength 18
+470,special bonus unique furion 5
+471,special bonus unique oracle 6
+472,special bonus unique omniknight 6
+474,special bonus unique riki 7
+475,special bonus unique sand king 4
+476,special bonus unique bane 5
+477,special bonus unique wraith king 9
+478,special bonus attack speed 110
+479,special bonus unique terrorblade 5
+480,special bonus unique night stalker 3
+481,special bonus attack range 275
+482,special bonus unique bloodseeker 5
+483,special bonus unique phantom assassin 4
+484,special bonus unique bounty hunter 4
+486,special bonus unique drow ranger 6
+487,special bonus attack damage 16
+488,special bonus attack damage 18
+489,special bonus agility and intelligence 6
+490,special bonus unique phantom assassin 6
+491,special bonus unique phantom assassin 5
+492,special bonus unique troll warlord 5
+493,special bonus unique vengeful spirit 8
+494,special bonus unique clinkz 7
+495,special bonus unique clinkz 8
+496,special bonus attack base damage 20
+497,special bonus unique sand king 6
+498,special bonus unique sand king 7
+499,special bonus unique lifestealer 5
+500,special bonus unique snapfire 8
+501,special bonus unique omniknight 7
+502,special bonus unique clockwerk 5
+503,special bonus unique night stalker 5
+504,special bonus unique slardar 5
+505,special bonus unique night stalker 4
+506,special bonus unique beastmaster 5
+507,special bonus unique pudge 7
+508,special bonus unique grimstroke 6
+509,special bonus unique leshrac 5
+510,special bonus unique chaos knight 5
+511,special bonus spell amplify 9
+512,special bonus unique batrider 4
+513,special bonus unique dark seer 6
+514,special bonus unique dark willow 5
+515,special bonus unique dark willow 6
+516,special bonus unique leshrac 6
+517,special bonus unique disruptor 7
+518,special bonus unique rubick 6
+519,special bonus unique skywrath 7
+520,special bonus unique enigma 7
+521,special bonus unique enigma 8
+522,special bonus spell amplify 7
+523,special bonus unique clinkz 10
+524,special bonus attack base damage 15
+525,special bonus unique magnus 6
+526,special bonus unique jakiro 6
+527,special bonus unique keeper of the light 7
+528,special bonus intelligence 75
+529,special bonus unique chen 8
+530,special bonus unique lich 6
+531,special bonus unique lich 7
+532,keeper of the light solar bind
+535,tinker shrink ray
+536,shadow shaman serpentine
+537,brewmaster primal split cancel
+538,magnataur greater shockwave
+539,leshrac greater lightning storm
+540,special bonus unique lion 7
+541,special bonus unique lion 8
+542,special bonus unique jakiro 7
+543,antimage mana overload
+544,special bonus unique oracle 7
+545,special bonus unique mars rebuke cooldown
+546,special bonus unique meepo 5
+547,meepo petrify
+548,special bonus attack base damage 50
+549,special bonus base attack rate 1
+550,riki poison dart
+551,special bonus unique chen 9
+552,omniknight angelic flight
+553,jakiro liquid frost
+554,special bonus unique clinkz 9
+555,special bonus unique witch doctor 7
+556,special bonus unique underlord 5
+557,special bonus unique underlord 6
+558,special bonus unique tiny 6
+559,special bonus unique phantom assassin 7
+560,special bonus unique dark seer 7
+561,grimstroke ink over
+562,special bonus unique axe 5
+563,special bonus unique phantom lancer 5
+564,special bonus unique phantom lancer 6
+567,special bonus unique razor 5
+568,special bonus cooldown reduction 14
+572,special bonus unique batrider 5
+579,dazzle rain of vermin
+580,special bonus unique drow ranger 7
+581,centaur overrun
+583,special bonus unique clinkz 11
+584,special bonus attack range 325
+586,special bonus unique razor 6
+587,windrunner focusfire cancel
+590,special bonus unique queen of pain 3
+591,special bonus unique dark seer 8
+592,venomancer area poison
+594,special bonus unique doom 8
+595,crystal maiden let it go
+601,special bonus unique naga siren 5
+602,beastmaster mark of the beast
+605,kunkka tidal wave
+611,special bonus unique zeus 4
+613,special bonus unique beastmaster 6
+614,special bonus unique clockwerk 6
+615,special bonus unique centaur 6
+616,special bonus unique undying 6
+617,special bonus unique clinkz 12
+618,special bonus unique meepo 6
+619,special bonus unique invoker 12
+620,special bonus unique enigma 9
+621,special bonus unique lycan 6
+622,naga siren crit
+623,special bonus attack base damage 100
+624,special bonus unique keeper of the light 10
+625,furion greater sprout
+626,special bonus unique visage 7
+627,special bonus unique storm spirit 7
+628,special bonus unique juggernaut 5
+629,special bonus unique queen of pain 4
+630,rattletrap jetpack
+631,life stealer ghoul frenzy
+632,witch doctor voodoo switcheroo
+634,special bonus unique phantom lancer 7
+636,special bonus mp regen amp 10
+639,broodmother silken bola
+641,zuus heavenly jump
+642,alchemist berserk potion
+643,bristleback hairball
+644,special bonus unique dark seer 10
+645,special bonus unique viper 5
+646,special bonus unique brewmaster 6
+647,rubick telekinesis land self
+648,ogre magi smash
+649,magnataur horn toss
+650,tinker defense matrix
+651,shredder flamethrower
+652,windrunner gale force
+654,special bonus unique brewmaster 5
+656,omniknight hammer of purity
+657,special bonus unique keeper of the light 8
+658,special bonus unique batrider 6
+659,special bonus unique bristleback 4
+660,dragon knight fireball
+661,necrolyte death seeker
+662,phantom assassin fan of knives
+663,special bonus unique underlord 7
+664,special bonus unique keeper of the light 11
+665,special bonus unique antimage 6
+666,special bonus unique antimage 7
+667,special bonus unique shadow demon 8
+668,slark fish bait
+669,special bonus unique keeper of the light 9
+670,special bonus unique axe 6
+671,special bonus unique bane 6
+672,special bonus unique bane 7
+673,special bonus unique sven 5
+681,special bonus unique oracle 8
+682,storm spirit electric rave
+683,visage silent as the grave
+684,special bonus unique winter wyvern 6
+685,special bonus unique arc warden 6
+687,dark seer normal punch
+688,special bonus unique huskar 7
+689,special bonus unique dark seer 9
+690,special bonus unique dark seer 11
+693,brewmaster void astral pulse
+694,sniper concussive grenade
+695,special bonus unique slardar 6
+696,special bonus unique centaur 7
+697,special bonus unique dark seer 12
+698,special bonus unique death prophet 5
+699,terrorblade demon zeal
+700,beastmaster hawk dive
+701,medusa cold blooded
+702,special bonus unique mirana 5
+703,special bonus attack damage 252
+704,special bonus unique troll warlord 7
+705,special bonus unique grimstroke 7
+706,special bonus attack base damage 40
+707,special bonus unique ringmaster whip debuff immunity
+708,special bonus unique lion 9
+709,special bonus unique lifestealer 6
+710,special bonus unique underlord 8
+711,special bonus unique lone druid 12
+712,special bonus unique magnus 7
+713,special bonus unique phoenix 8
+714,special bonus unique batrider 7
+715,special bonus unique queen of pain 5
+716,special bonus unique sven 7
+717,special bonus unique viper 6
+718,special bonus unique tiny 7
+719,special bonus unique winter wyvern 7
+720,special bonus unique bane 8
+721,special bonus unique silencer 7
+722,special bonus unique beastmaster 7
+723,special bonus unique huskar 8
+724,special bonus unique invoker 13
+726,special bonus hp 375
+728,troll warlord rampage
+729,slark depth shroud
+730,special bonus attributes
+732,special bonus unique brewmaster 7
+733,special bonus unique doom 9
+734,special bonus unique sven 6
+735,special bonus unique antimage 8
+736,special bonus unique dark seer 13
+737,special bonus unique disruptor 8
+738,special bonus mp regen 125
+739,special bonus unique drow ranger 8
+740,special bonus unique dragon knight 7
+741,special bonus unique wraith king 10
+742,special bonus unique dragon knight 8
+743,special bonus spell amplify 18
+744,special bonus unique earthshaker 4
+745,special bonus unique kunkka 6
+746,special bonus unique lifestealer 7
+747,special bonus unique monkey king 8
+748,special bonus unique monkey king 9
+749,special bonus agility 9
+750,special bonus unique outworld devourer 5
+751,special bonus unique queen of pain 6
+752,special bonus unique shadow demon 9
+753,special bonus status resistance 10
+754,special bonus unique tidehunter 5
+755,special bonus unique treant 12
+756,special bonus unique treant 13
+757,special bonus unique templar assassin 8
+758,special bonus unique ursa 8
+759,special bonus unique morphling 9
+760,special bonus unique shadow shaman 7
+761,special bonus unique naga siren 6
+762,special bonus unique storm spirit 8
+763,special bonus unique sven 8
+764,special bonus unique warlock 7
+765,special bonus unique tinker 6
+766,special bonus unique kunkka 7
+767,special bonus unique puck 7
+768,special bonus unique warlock 8
+769,special bonus unique chen 10
+770,special bonus unique luna 6
+771,special bonus unique keeper of the light 12
+772,special bonus unique crystal maiden 6
+773,special bonus unique lina 5
+774,special bonus unique grimstroke 8
+775,special bonus unique lich 8
+776,special bonus unique visage 8
+777,special bonus unique lion 10
+778,special bonus unique nyx 5
+779,special bonus unique bane 9
+780,special bonus unique dark willow 7
+781,special bonus unique lion 11
+782,special bonus unique riki 8
+783,special bonus movement speed percentage 8
+784,special bonus movement speed percentage 10
+785,special bonus lifesteal 18
+786,special bonus hp 1000
+787,special bonus unique rubick 7
+788,special bonus unique disruptor 9
+789,special bonus unique dazzle 5
+790,special bonus unique vengeful spirit 9
+791,special bonus unique oracle 9
+792,special bonus spell lifesteal 40
+793,special bonus unique shadow shaman 8
+794,special bonus unique lycan 7
+795,special bonus unique riki 9
+796,special bonus unique weaver 6
+797,special bonus unique puck 8
+798,special bonus unique phantom assassin 9
+799,special bonus unique night stalker 6
+800,special bonus mana reduction 8
+801,special bonus unique ogre magi 5
+802,special bonus unique monkey king 10
+803,special bonus unique beastmaster 8
+804,special bonus unique keeper of the light 14
+805,special bonus unique underlord 9
+806,special bonus spell lifesteal 50
+807,special bonus unique undying 7
+808,special bonus unique naga siren 7
+809,special bonus unique wraith king 11
+810,special bonus unique ember spirit 7
+811,special bonus unique venomancer 8
+812,special bonus unique warlock 9
+813,special bonus unique undying 8
+814,special bonus unique slark 5
+815,special bonus unique nevermore 6
+816,special bonus unique night stalker 7
+817,special bonus unique mirana 6
+818,special bonus unique bloodseeker 6
+819,special bonus unique bloodseeker 7
+820,special bonus unique necrophos 6
+821,special bonus unique slark 6
+822,special bonus unique monkey king 11
+823,special bonus unique mirana 7
+830,special bonus unique spirit breaker 4
+831,special bonus movement speed percentage 5
+832,special bonus movement speed percentage 6
+833,skywrath mage shield of the scion
+841,special bonus unique chen 11
+842,abyssal underlord portal warp
+843,special bonus unique mars bulwark speed
+844,special bonus unique lina 6
+845,special bonus unique warlock 10
+846,special bonus unique lycan 8
+847,special bonus unique luna 7
+848,special bonus unique luna 8
+850,special bonus unique clockwerk 7
+851,special bonus unique clockwerk 8
+852,special bonus unique slardar 7
+853,special bonus unique slardar 8
+856,special bonus unique faceless void 6
+857,special bonus unique dawnbreaker fire wreath aoe
+858,special bonus unique earthshaker 6
+859,special bonus unique venomancer poisonsting regen reduction
+860,harpy scout take off
+861,kobold tunneler prospecting
+862,furbolg enrage attack speed
+863,furbolg enrage damage
+864,forest troll high priest heal amp aura
+865,abyssal underlord dark portal
+866,enraged wildkin hurricane
+867,special bonus unique faceless void 7
+868,special bonus unique faceless void 8
+869,special bonus unique bounty hunter 5
+870,special bonus unique chaos knight 7
+871,special bonus unique chaos knight 6
+872,special bonus unique chaos knight 8
+873,broodmother sticky snare
+874,special bonus hp 900
+875,kobold disarm
+876,special bonus unique bounty hunter 6
+877,special bonus unique bounty hunter 7
+878,special bonus unique bounty hunter 8
+879,techies sticky bomb
+880,special bonus unique legion commander 7
+881,special bonus unique keeper of the light 13
+883,special bonus unique mars rebuke slow
+884,special bonus unique mars bulwark damage reduction
+885,ogre bruiser ogre smash
+886,techies reactive tazer
+887,fel beast haunt
+888,treant lifebomb explode
+889,berserker troll break
+890,special bonus unique sand king 8
+891,special bonus unique nyx 6
+892,special bonus unique slark 7
+893,hill troll rally
+894,giant wolf intimidate
+895,omniknight martyr
+896,neutral upgrade
+897,special bonus unique rubick 8
+898,gyrocopter lock on
+899,special bonus unique jakiro 8
+900,special bonus unique broodmother 6
+901,special bonus unique beastmaster 9
+902,bloodseeker blood mist
+903,special bonus unique morphling 10
+904,special bonus unique primal beast pulverize pierces magic immunity
+905,special bonus unique bloodseeker rupture charges
+906,special bonus unique sniper grenade self push
+909,tinker warp grenade
+912,creep siege
+913,creep piercing
+914,creep irresolute
+915,special bonus unique juggernaut blade dance lifesteal
+916,shadow demon demonic cleanse
+917,special bonus unique elder titan bonus spirit speed
+918,special bonus unique earthshaker totem damage
+919,clinkz empty1
+920,special bonus unique medusa 6
+921,special bonus unique slark 8
+922,ancient rock golem weakening aura
+923,black drake magic amplification aura
+924,special bonus unique terrorblade 6
+925,special bonus unique legion commander 8
+926,special bonus unique furion 6
+927,special bonus unique furion 7
+928,special bonus unique sniper headshot damage
+929,special bonus unique nevermore shadowraze cooldown
+932,oracle rain of destiny
+933,dazzle good juju
+934,special bonus unique zeus jump postjump movespeed
+935,warpine raider seed shot
+936,frostbitten golem time warp aura
+937,ice shaman incendiary bomb
+941,bounty hunter lookout
+942,brewmaster primal companion
+943,brewmaster fire phase
+944,lina flame cloak
+951,chen martyrdom
+952,special bonus unique chen 12
+953,crystal maiden crystal clone
+954,special bonus unique dark seer 14
+955,special bonus unique dark seer 15
+956,special bonus unique crystal maiden frostbite castrange
+957,special bonus unique outworld devourer astral castrange
+958,tidehunter arm of the deep
+959,special bonus unique bounty hunter 9
+960,special bonus unique brewmaster 8
+961,special bonus unique lina 7
+962,special bonus unique lina 8
+963,special bonus unique tidehunter 9
+964,special bonus unique tidehunter 10
+965,special bonus unique queen of pain 7
+966,special bonus unique antimage manavoid aoe
+967,special bonus unique hoodwink bushwhack radius
+970,special bonus unique doom 10
+971,special bonus unique doom 11
+972,special bonus unique abaddon 6
+973,special bonus unique ancient apparition 8
+974,special bonus unique axe 7
+975,special bonus unique arc warden 7
+976,batrider sticky napalm application damage
+977,special bonus unique earth spirit 8
+978,special bonus unique bane 10
+979,special bonus unique bane 11
+980,centaur mount
+981,enchantress little friends
+982,special bonus unique monkey king 12
+983,viper nose dive
+984,special bonus unique viper 7
+985,special bonus unique viper 8
+986,venomancer latent poison
+987,spirit breaker planar pocket
+988,special bonus unique troll warlord 6
+989,special bonus unique snapfire mortimer kisses impact damage
+991,special bonus unique juggernaut omnislash cast range
+992,primal beast onslaught
+993,primal beast onslaught release
+994,primal beast trample
+995,primal beast uproar
+996,primal beast pulverize
+997,furion curse of the forest
+999,special bonus unique nevermore 7
+1001,shadow demon disseminate
+1002,special bonus unique alchemist 7
+1003,special bonus unique alchemist 8
+1004,special bonus unique shadow demon disseminate damage
+1005,beastmaster drums of slom
+1006,beastmaster call of the wild hawk attack
+1007,special bonus unique beastmaster wild axe cooldown
+1008,naga siren reel in
+1009,special bonus unique naga siren net cooldown
+1010,special bonus unique troll warlord whirling axes debuff duration
+1011,special bonus unique troll warlord battle trance movespeed
+1012,special bonus unique gyrocopter flak cannon bonus damage
+1013,special bonus unique juggernaut omnislash duration
+1014,special bonus unique kunkka ghostship cooldown
+1015,special bonus unique kunkka tidebringer slow
+1016,special bonus unique elder titan 5
+1018,special bonus unique dazzle poison touch attack range bonus
+1019,special bonus unique grimstroke soul chain reflect damage
+1020,special bonus unique mars rebuke radius
+1029,item super blink
+1030,item pocket tower
+1031,special bonus unique mars bulwark redirect chance
+1033,special bonus unique lifestealer infest damage
+1034,special bonus unique lifestealer infest target bonus
+1035,special bonus unique lifestealer rage armor
+1036,special bonus unique lifestealer ghoul frenzy miss
+1037,special bonus unique magnus reverse polarity stats
+1038,special bonus unique warlock upheaval aoe
+1039,special bonus unique broodmother 7
+1040,special bonus unique jakiro dualbreath slow
+1041,special bonus unique wraith king vampiric skeleton duration
+1042,special bonus unique marci unleash speed
+1043,special bonus unique dragon knight 9
+1044,special bonus unique wisp 11
+1045,special bonus unique medusa 7
+1046,special bonus unique keeper of the light illuminate cooldown
+1047,special bonus unique sniper grenade range
+1048,special bonus unique night stalker hunter status resist
+1049,special bonus unique necrophos heartstopper regen duration
+1050,special bonus unique necrophos sadist heal bonus
+1051,special bonus unique nyx carapace reflect duration
+1052,special bonus unique oracle fortunes end damage
+1053,special bonus unique pangolier shield crash herostacks
+1054,special bonus unique pangolier luckyshot armor
+1055,special bonus unique phantom lancer doppel illusion2 amt
+1056,special bonus unique phantom lancer lance damage
+1057,special bonus unique puck orb damage
+1058,special bonus unique puck coil damage
+1059,special bonus unique templar assassin refraction damage
+1060,special bonus unique templar assassin refraction disable cast
+1061,special bonus unique zeus jump cooldown
+1062,special bonus unique ursa earthshock furyswipes
+1063,special bonus unique ursa enrage radius
+1064,special bonus unique razor plasmafield second ring
+1065,special bonus unique razor static link aspd
+1066,special bonus unique sand king burrowstrike stun
+1067,special bonus unique vengeful spirit missile castrange
+1068,special bonus unique vengeful spirit swap damage
+1069,special bonus unique tinker defense matrix cdr
+1070,special bonus unique void spirit dissimilate outerring
+1071,special bonus unique windranger windrun undispellable
+1072,special bonus unique nevermore raze procsattacks
+1073,special bonus unique silencer glaives bounces
+1074,special bonus unique phantom assassin strike aspd
+1075,special bonus unique hoodwink scurry evasion
+1078,special bonus unique bristleback 5
+1079,special bonus unique bristleback 6
+1080,special bonus unique clockwerk 9
+1081,special bonus unique primal beast trample magic resist
+1082,special bonus unique primal beast trample cooldown
+1083,special bonus unique venomancer gale plagueward
+1084,special bonus unique lion manadrain damage
+1085,special bonus unique slardar slithereen crush stun
+1086,flagbearer creep aura effect
+1087,special bonus unique drow ranger gust invis
+1088,special bonus unique drow ranger gust selfmovespeed
+1089,special bonus magic resistance 14
+1102,special bonus unique furion sprout treant duration
+1103,furion hedgerow
+1104,nyx assassin jolt
+1105,venomancer noxious plague
+1108,undying tombstone grab
+1109,meepo megameepo
+1110,zuus lightning hands
+1111,special bonus unique arc warden 8
+1112,special bonus unique arc warden 9
+1113,special bonus unique legion commander 9
+1114,furion arboreal might
+1115,ogre magi dumb luck
+1116,alchemist corrosive weaponry
+1117,brewmaster void astral pull
+1118,special bonus unique furion teleportation max stacks
+1119,clinkz tar bomb
+1120,clinkz strafe
+1121,drow ranger glacier
+1126,magnus strength of joelrak
+1129,special bonus unique puck rift radius
+1130,special bonus unique enchantress enchant health damage
+1131,special bonus unique treant 14
+1132,special bonus unique primal beast trample unslowable
+1133,special bonus unique dark willow bedlam targets
+1134,special bonus unique hoodwink sharpshooter damage
+1135,centaur work horse
+1136,bounty hunter wind walk ally
+1137,special bonus unique razor storm surge damage and slow
+1138,special bonus unique marci lunge movespeed
+1139,special bonus unique marci sidekick damage
+1140,arc warden tempest recall
+1141,special bonus unique ancient apparition ice vortex duration
+1142,special bonus unique disruptor consecutive strike damage
+1143,antimage counterspell ally
+1144,lone druid summon spirit bear fetch
+1145,special bonus unique leshrac pulse nova lightning
+1146,special bonus unique skywrath arcane bolt lifesteal
+1147,techies reactive tazer stop
+1148,special bonus unique visage grave chill duration
+1150,special bonus unique juggernaut blade fury cooldown
+1151,special bonus unique death prophet crypt swarm slow
+1152,special bonus unique lycan howl armor
+1153,special bonus attack speed 90
+1155,special bonus unique earth spirit rolling boulder cooldown
+1165,special bonus unique abaddon 7
+1166,axe one man army
+1169,roshan revengeroar
+1170,special bonus unique death prophet silence slow
+1171,special bonus unique nyx vendetta damage
+1172,special bonus unique bounty hunter jinada no cooldown
+1173,seasonal party hat
+1174,special bonus unique enchantress enchant armor
+1175,special bonus unique kunkka torrent cooldown
+1176,special bonus unique legion commander pta movespeed
+1177,special bonus unique lina thermal runaway stacks
+1178,special bonus unique lina dragon slave crits
+1179,special bonus unique queen of pain strike heal
+1180,special bonus unique phantom lancer phantom rush agility
+1181,special bonus unique ogre magi dumb luck mana
+1182,special bonus unique oracle damage per purge
+1183,special bonus unique shadow shaman hex damage amp
+1184,special bonus unique spectre desolate radius
+1185,special bonus unique timbersaw reactive armor regen per stack
+1186,special bonus unique terrorblade metamorphosis cooldown
+1187,special bonus unique storm spirit overload aspd
+1188,special bonus unique sven gods strength slow resist
+1189,special bonus unique axe culling blade speed duration
+1190,special bonus unique phoenix dive damage
+1191,special bonus unique pugna decrepify ally movespeed
+1192,special bonus unique juggernaut blade fury movespeed
+1193,special bonus unique broodmother web hpregen
+1194,special bonus 20 crit 2
+1195,special bonus unique windranger powershot slow
+1196,special bonus unique pangolier shield crash radius
+1197,special bonus unique vengeful spirit wave of terror steal
+1198,lycan innate lone wolf
+1199,lycan innate wolfpack
+1200,warlock imp explode
+1201,axe coat of blood
+1202,bane ichor of nyctasha
+1203,bloodseeker sanguivore
+1204,crystal maiden blueheart floe
+1205,drow ranger trueshot
+1206,drow ranger creep rally
+1207,drow ranger vantage point
+1208,special bonus unique earthshaker echo cd
+1209,juggernaut duelist
+1210,juggernaut bladeform
+1211,juggernaut innate mask spin crit
+1212,juggernaut innate mask crit lifesteal
+1213,mirana invis
+1214,mirana solar flare
+1215,mirana selemenes faithful
+1216,nevermore frenzy
+1217,special bonus unique nevermore frenzy castspeed
+1218,morphling ebb
+1219,morphling flow
+1220,morphling accumulation
+1221,phantom lancer phantom edge
+1222,puck puckish
+1223,pudge innate graft flesh
+1224,razor storm surge
+1225,razor dynamo
+1226,sandking caustic finale
+1227,sandking innate caustic impediment
+1228,sandking innate caustic volatility
+1229,sandking scorpion strike
+1230,special bonus unique sand king scorpion strike damage
+1231,storm spirit galvanized
+1232,sven vanquisher
+1233,special bonus unique vengeful spirit swap damage reduction
+1234,sven wrath of god
+1235,tiny rocksteady
+1236,tiny insurmountable
+1237,vengefulspirit soul strike
+1238,vengefulspirit retribution
+1239,windrunner easy breezy
+1240,kunkka ghost ship fire cannons
+1241,special bonus unique kunkka rum
+1242,kunkka innate kunkkas spyglass
+1243,kunkka innate kunkkas flask
+1244,lina slow burn
+1245,lich death charge
+1246,lich variant ice rite
+1247,lich innate chain frost projectile speed
+1248,lich innate chain frost bounces
+1249,lion to hell and back
+1250,shadow shaman fowl play
+1251,shadow shaman innate snake jar
+1252,shadow shaman innate piglet pole
+1253,slardar seaborn sentinel
+1254,tidehunter krill eater
+1255,tidehunter blubber
+1256,witch doctor innate maledict heal reduction
+1257,witch doctor gris gris
+1258,riki innate backstab
+1259,enigma gravity well
+1260,enigma splitting image
+1261,enigma event horizon
+1262,tinker eureka
+1263,tinker innate keen teleport gold on death
+1264,tinker innate keen teleport xp on death
+1265,special bonus unique tinker rearm magic resistance
+1266,special bonus unique tinker march duration
+1267,special bonus unique tinker defense matrix status resistance
+1268,sniper keen scope
+1269,special bonus unique sniper take aim armor
+1270,necrolyte ghost shroud
+1271,warlock golem flaming fists
+1272,warlock golem permanent immolation
+1273,warlock imp explode major
+1274,warlock eldritch summoning
+1275,warlock black grimoire
+1276,queenofpain masochist
+1277,queenofpain succubus
+1278,queenofpain bondage
+1279,special bonus unique queen of pain 1
+1280,faceless void distortion field
+1281,faceless void time zone
+1282,skeleton king spectral blade
+1283,skeleton king vampiric spirit
+1284,special bonus unique death prophet crypt swarm damage
+1285,death prophet spirit collector
+1286,death prophet innate healing mastery
+1287,phantom assassin immaterial
+1288,pugna oblivion savant
+1289,viper innate corrosive skin vile
+1290,viper innate corrosive skin virulent
+1291,luna selemenes favor
+1292,dragon knight inherited vigor
+1293,dazzle innate weave
+1294,dazzle nothl boon
+1295,rattletrap armor power
+1296,leshrac chronoptic nourishment
+1297,leshrac defilement
+1298,furion spirit of the forest
+1299,furion fecundity
+1300,special bonus unique furion teleportation barrier
+1301,life stealer unfettered
+1302,life stealer corpse eater
+1303,dark seer quick wit
+1304,dark seer heart of battle
+1305,dark seer mental fortitude
+1306,clinkz bone and arrow
+1307,omniknight healing hammer
+1308,enchantress forest freebie
+1309,huskar blood magic
+1310,night stalker heart of darkness
+1311,night stalker night reign
+1312,special bonus unique night stalker crippling fear damage
+1313,broodmother spiders milk
+1314,bounty hunter shuriken toss
+1315,bounty hunter cutpurse
+1316,bounty hunter big game hunter
+1317,jakiro liquid ice
+1318,jakiro double trouble
+1319,batrider smoldering resin
+1320,batrider stoked
+1321,chen summon convert
+1322,chen innate check for team change
+1323,spectre spectral
+1324,doom bringer lvl pain
+1325,doom bringer devils bargain
+1326,ancient apparition death rime
+1327,ursa maul
+1328,ursa bear down
+1329,spirit breaker knockback amp
+1330,spirit breaker herd mentality
+1331,gyrocopter chop shop
+1332,special bonus unique gyrocopter homing missile damage
+1333,alchemist goblins greed
+1334,invoker mastermind
+1335,silencer brain drain
+1336,silencer irrepressible
+1337,special bonus unique silencer arcane curse charges
+1338,obsidian destroyer ominous discernment
+1339,lycan apex predator
+1340,shadow demon shadow servant
+1341,shadow demon menace
+1342,lone druid spirit bear
+1343,lone druid spirit bear return
+1344,lone druid spirit bear entangle
+1345,special bonus unique medusa 8
+1346,lone druid spirit bear defender
+1347,lone druid spirit bear fetch
+1348,lone druid spirit bear demolish
+1349,special bonus unique lone druid spirit link attack speed
+1350,special bonus unique lone druid entangle dps
+1351,special bonus unique lone druid savage roar aoe
+1352,chaos knight phantasmagoria
+1353,chaos knight reins of chaos
+1354,chaos knight innate spell refund
+1355,meepo pack rat
+1356,meepo sticky fingers
+1357,special bonus unique meepo poof cast point
+1358,treant innate attack damage
+1359,undying zombie master
+1360,undying ceaseless dirge
+1361,rubick might and magus
+1362,disruptor kinetic fence
+1363,disruptor electromagnetic repulsion
+1364,disruptor innate kinetic circle
+1365,nyx assassin nyxth sense
+1366,nyx assassin innate mana burn
+1367,special bonus unique nyx vendetta cd manacost
+1368,special bonus unique nyx jolt cooldown
+1369,naga siren deluge
+1370,naga siren eelskin
+1371,special bonus unique naga siren net breaks
+1372,keeper of the light radiant bind
+1373,keeper of the light mana magnifier
+1374,wisp sight seer
+1375,slark barracuda
+1376,special bonus unique medusa snake damage
+1377,troll warlord innate unflinching
+1378,troll warlord innate masterful
+1379,centaur horsepower
+1380,centaur rawhide
+1381,magnus magnetic horn
+1382,magnataur solid core
+1383,shredder twisted chakram
+1384,shredder exposure therapy
+1385,tusk drinking buddies
+1386,tusk bitter chill
+1387,skywrath mage staff of the scion
+1388,skywrath mage ruin and restoration
+1389,abaddon the quickening
+1390,abaddon font of avernus
+1391,abaddon soul suck
+1392,elder titan ancestral spirit
+1393,elder titan momentum
+1394,special bonus unique ember spirit chains dps
+1395,earth spirit stone caller
+1396,terrorblade dark unity
+1397,phoenix dying light
+1398,phoenix blinding sun
+1399,oracle clairvoyant curse
+1400,oracle clairvoyant cure
+1401,oracle prognosticate
+1402,techies squees scope
+1403,techies spoons stash
+1404,winter wyvern eldwurm scholar
+1405,winter wyvern essence of the blueheart
+1406,winter wyvern dragon sight
+1407,arc warden runic infusion
+1408,abyssal underlord abyssal horde
+1409,abyssal underling warrior last will
+1410,abyssal underling warrior mana burn
+1411,abyssal underling archer aoe
+1412,pangolier fortune favors the bold
+1413,dark willow pixie dust
+1414,grimstroke ink trail
+1415,mars dauntless
+1416,mars arena of blood
+1417,special bonus unique mars arena of blood hp regen
+1418,special bonus unique mars bulwark cooldown
+1419,void spirit symmetry
+1420,void spirit intrinsic edge
+1421,snapfire buckshot
+1422,hoodwink hunters boomerang
+1423,hoodwink mistwoods wayfarer
+1424,dawnbreaker break of dawn
+1425,dawnbreaker unbreakable
+1426,marci guardian
+1427,marci bodyguard
+1428,marci special delivery
+1429,special bonus unique marci guardian lifesteal
+1430,special bonus unique marci unleash extend duration
+1431,special bonus unique marci guardian damage
+1432,primal beast colossal
+1433,primal beast innate slow resistance per time
+1434,primal beast innate status resistance per time
+1435,muerta ofrenda
+1436,muerta supernatural
+1437,muerta ofrenda destroy
+1438,special bonus unique muerta calling hp regen
+1439,special bonus unique muerta gunslinger bonus damage
+1442,special bonus unique lina crit debuff
+1443,special bonus spell aoe 25
+1444,special bonus spell aoe 50
+1445,special bonus spell aoe 75
+1446,special bonus spell aoe 100
+1447,antimage persectur
+1448,earthshaker spirit cairn
+1449,phantom lancer illusory armaments
+1450,special bonus unique phantom lancer illusory armaments dmg
+1451,special bonus unique razor plasmafield max slow
+1452,kunkka admirals rum
+1453,special bonus unique kunkka admirals rum delay
+1454,lina combustion
+1455,special bonus unique sniper shrapnel damage
+1456,beastmaster rugged
+1457,venomancer sepsis
+1458,special bonus unique death prophet silence aoe
+1459,death prophet mourning ritual
+1460,templar assassin third eye
+1461,viper predator
+1462,luna lunar orbit
+1463,special bonus unique omniknight guardian angel duration
+1464,enchantress rabblerouser
+1465,weaver rewoven
+1467,special bonus unique silencer arcane curse duration
+1468,lycan summon wolves bash
+1469,lycan summon wolves hamstring
+1470,lycan summon wolves hightail
+1471,brewmaster belligerent
+1472,lone druid gift bearer
+1473,lone druid bear necessities
+1474,visage lurker
+1475,medusa gorgon grasp
+1476,beastmaster hawk perch
+1477,medusa venomed volley
+1478,troll warlord switch stance
+1479,bristleback prickly
+1480,special bonus unique skywrath concussive shot slow
+1481,abaddon withering mist
+1482,elder titan tip the scales
+1483,legion commander outfight them
+1484,ember spirit immolation
+1485,special bonus unique arc warden flux silences
+1486,abyssal underlord raid boss
+1488,special bonus attack base damage 35
+1489,special bonus unique juggernaut healing ward heal
+1490,special bonus special bonus unique medusa gorgons grasp duration
+1491,special bonus special bonus unique medusa gorgons grasp volleys
+1492,special bonus unique ringmaster dagger penetrates
+1493,special bonus unique ringmaster dagger bleed and slow duration
+1494,earthshaker slugger
+1495,special bonus hp regen 3
+1496,special bonus unique batrider smoldering resin ticks
+1497,kez switch weapons
+1498,kez echo slash
+1499,kez grappling claw
+1500,kez kazurai katana
+1501,kez raptor dance
+1502,kez falcon rush
+1503,kez talon toss
+1504,kez shodo sai
+1505,kez shodo sai parry cancel
+1506,kez ravens veil
+1507,special bonus unique kez grapple cast range
+1508,special bonus unique kez parry bonus
+1509,special bonus unique kez raptor dance radius
+1510,special bonus unique kez kazura katana bleed damage
+1511,special bonus unique kez falcon rush duration
+1512,special bonus unique kez slip applies parry bonus
+1513,special bonus unique kez echo slash strike count
+1514,special bonus unique kez mark damage
+1515,special bonus unique kez ultimate cooldown
+1516,special bonus unique kez falcon rush evasion
+1517,kez falcon rush ad
+1518,kez talon toss ad
+1519,kez shodo sai ad
+1520,kez ravens veil ad
+1521,special bonus unique kez ravens veil mark parry bonus
+1539,special bonus unique zeus static field dmg
+1540,special bonus unique viper predator damage
+1541,special bonus unique enchantress enchant attackspeed
+1542,special bonus unique mars arena cooldown
+1809,dota empty ability
+2091,item tier1 token
+2092,item tier2 token
+2093,item tier3 token
+2094,item tier4 token
+2095,item tier5 token
+2610,ability lamp use
+2611,ability pluck famango
+4000,seasonal ti10 high five
+4001,seasonal ti10 guild banner
+4201,ability scout bonuses
+4202,miniboss unyielding shield
+4203,miniboss reflect
+4646,tinker keen teleport
+5001,default attack
+5002,attribute bonus
+5003,antimage mana break
+5004,antimage blink
+5005,antimage spell shield
+5006,antimage mana void
+5007,axe berserkers call
+5008,axe battle hunger
+5009,axe counter helix
+5010,axe culling blade
+5011,bane brain sap
+5012,bane enfeeble
+5013,bane fiends grip
+5014,bane nightmare
+5015,bloodseeker bloodrage
+5016,bloodseeker blood bath
+5017,bloodseeker thirst
+5018,bloodseeker rupture
+5019,drow ranger frost arrows
+5020,drow ranger silence
+5021,drow ranger precision aura
+5022,drow ranger marksmanship
+5023,earthshaker fissure
+5024,earthshaker enchant totem
+5025,earthshaker aftershock
+5026,earthshaker echo slam
+5027,juggernaut blade dance
+5028,juggernaut blade fury
+5029,juggernaut healing ward
+5030,juggernaut omni slash
+5031,kunkka torrent
+5032,kunkka tidebringer
+5033,kunkka x marks the spot
+5034,kunkka return
+5035,kunkka ghostship
+5040,lina dragon slave
+5041,lina light strike array
+5042,lina fiery soul
+5043,lina laguna blade
+5044,lion impale
+5045,lion voodoo
+5046,lion mana drain
+5047,lion finger of death
+5048,mirana arrow
+5049,mirana moonlight shadow
+5050,mirana leap
+5051,mirana starfall
+5052,morphling waveform
+5053,morphling adaptive strike agi
+5054,morphling morph
+5055,morphling morph agi
+5056,morphling morph str
+5057,morphling replicate
+5058,morphling morph replicate
+5059,nevermore shadowraze1
+5060,nevermore shadowraze2
+5061,nevermore shadowraze3
+5062,nevermore necromastery
+5063,nevermore dark lord
+5064,nevermore requiem
+5065,phantom lancer spirit lance
+5066,phantom lancer doppelwalk
+5067,phantom lancer juxtapose
+5068,phantom lancer phantom rush
+5069,puck illusory orb
+5070,puck ethereal jaunt
+5071,puck waning rift
+5072,puck phase shift
+5073,puck dream coil
+5074,pudge flesh heap
+5075,pudge meat hook
+5076,pudge rot
+5077,pudge dismember
+5078,shadow shaman ether shock
+5079,shadow shaman voodoo
+5080,shadow shaman shackles
+5081,shadow shaman mass serpent ward
+5082,razor plasma field
+5083,razor static link
+5084,razor unstable current
+5085,razor eye of the storm
+5086,skeleton king hellfire blast
+5087,skeleton king bone guard
+5088,skeleton king mortal strike
+5089,skeleton king reincarnation
+5090,death prophet carrion swarm
+5091,death prophet silence
+5092,death prophet witchcraft
+5093,death prophet exorcism
+5094,sven storm bolt
+5095,sven great cleave
+5096,sven warcry
+5097,sven gods strength
+5098,storm spirit static remnant
+5099,storm spirit electric vortex
+5100,storm spirit overload
+5101,storm spirit ball lightning
+5102,sandking burrowstrike
+5103,sandking sand storm
+5104,sand king caustic finale
+5105,sandking epicenter
+5106,tiny avalanche
+5107,tiny toss
+5108,tiny tree grab
+5109,tiny grow
+5110,zuus arc lightning
+5111,zuus lightning bolt
+5112,zuus static field
+5113,zuus thundergods wrath
+5114,slardar sprint
+5115,slardar slithereen crush
+5116,slardar bash
+5117,slardar amplify damage
+5118,tidehunter gush
+5119,tidehunter kraken shell
+5120,tidehunter anchor smash
+5121,tidehunter ravage
+5122,vengefulspirit magic missile
+5123,vengefulspirit command aura
+5124,vengefulspirit wave of terror
+5125,vengefulspirit nether swap
+5126,crystal maiden crystal nova
+5127,crystal maiden frostbite
+5128,crystal maiden brilliance aura
+5129,crystal maiden freezing field
+5130,windrunner shackleshot
+5131,windrunner powershot
+5132,windrunner windrun
+5133,windrunner focusfire
+5134,lich frost nova
+5135,lich frost armor
+5136,lich frost shield
+5137,lich chain frost
+5138,witch doctor paralyzing cask
+5139,witch doctor voodoo restoration
+5140,witch doctor maledict
+5141,witch doctor death ward
+5142,riki smoke screen
+5143,riki blink strike
+5144,riki backstab
+5145,riki tricks of the trade
+5146,enigma malefice
+5147,enigma demonic conversion
+5148,enigma midnight pulse
+5149,enigma black hole
+5150,tinker laser
+5151,tinker heat seeking missile
+5152,tinker march of the machines
+5153,tinker rearm
+5154,sniper shrapnel
+5155,sniper headshot
+5156,sniper take aim
+5157,sniper assassinate
+5158,necrolyte death pulse
+5159,necrolyte heartstopper aura
+5160,necrolyte sadist
+5161,necrolyte reapers scythe
+5162,warlock fatal bonds
+5163,warlock shadow word
+5164,warlock upheaval
+5165,warlock rain of chaos
+5166,warlock champion of gorroth flaming fists
+5167,warlock champion of gorroth permanent immolation
+5168,beastmaster wild axes
+5169,beastmaster call of the wild
+5170,beastmaster hawk invisibility
+5171,beastmaster boar poison
+5172,beastmaster inner beast
+5173,queenofpain shadow strike
+5174,queenofpain blink
+5175,queenofpain scream of pain
+5176,queenofpain sonic wave
+5177,beastmaster primal roar
+5178,venomancer venomous gale
+5179,venomancer poison sting
+5180,venomancer plague ward
+5181,venomancer poison nova
+5182,faceless void time walk
+5183,faceless void backtrack
+5184,faceless void time lock
+5185,faceless void chronosphere
+5186,pugna nether blast
+5187,pugna decrepify
+5188,pugna nether ward
+5189,pugna life drain
+5190,phantom assassin stifling dagger
+5191,phantom assassin phantom strike
+5192,phantom assassin blur
+5193,phantom assassin coup de grace
+5194,templar assassin refraction
+5195,templar assassin meld
+5196,templar assassin psi blades
+5197,templar assassin psionic trap
+5198,templar assassin trap
+5199,templar assassin self trap
+5200,necronomicon warrior last will
+5201,necronomicon warrior sight
+5202,necronomicon warrior mana burn
+5203,necronomicon archer mana burn
+5204,necronomicon archer aoe
+5205,courier return to base
+5206,courier transfer items
+5207,courier return stash items
+5208,courier take stash items
+5209,courier shield
+5210,courier burst
+5213,roshan spell block
+5214,roshan bash
+5215,roshan slam
+5216,roshan inherent buffs
+5217,roshan devotion
+5218,viper poison attack
+5219,viper nethertoxin
+5220,viper corrosive skin
+5221,viper viper strike
+5222,luna lucent beam
+5223,luna moon glaive
+5224,luna lunar blessing
+5225,luna eclipse
+5226,dragon knight breathe fire
+5227,dragon knight dragon tail
+5228,dragon knight dragon blood
+5229,dragon knight elder dragon form
+5232,dragon knight frost breath
+5233,dazzle poison touch
+5234,dazzle shallow grave
+5235,dazzle shadow wave
+5236,dazzle weave
+5237,rattletrap battery assault
+5238,rattletrap power cogs
+5239,rattletrap rocket flare
+5240,rattletrap hookshot
+5241,leshrac split earth
+5242,leshrac diabolic edict
+5243,leshrac lightning storm
+5244,leshrac pulse nova
+5245,furion sprout
+5246,furion teleportation
+5247,furion force of nature
+5248,furion wrath of nature
+5249,life stealer rage
+5250,life stealer feast
+5251,life stealer open wounds
+5252,life stealer infest
+5253,life stealer consume
+5255,dark seer vacuum
+5256,dark seer ion shell
+5257,dark seer surge
+5258,dark seer wall of replica
+5259,clinkz burning barrage
+5260,clinkz searing arrows
+5261,clinkz wind walk
+5262,clinkz death pact
+5263,omniknight purification
+5264,omniknight repel
+5265,omniknight degen aura
+5266,omniknight guardian angel
+5267,enchantress untouchable
+5268,enchantress enchant
+5269,enchantress natures attendants
+5270,enchantress impetus
+5271,huskar inner vitality
+5272,huskar burning spear
+5273,huskar berserkers blood
+5274,huskar life break
+5275,night stalker void
+5276,night stalker crippling fear
+5277,night stalker hunter in the night
+5278,night stalker darkness
+5279,broodmother spawn spiderlings
+5280,broodmother spin web
+5281,broodmother incapacitating bite
+5282,broodmother insatiable hunger
+5283,broodmother spawn spiderite
+5284,broodmother poison sting
+5285,bounty hunter through and through toss
+5286,bounty hunter jinada
+5287,bounty hunter wind walk
+5288,bounty hunter track
+5289,weaver the swarm
+5290,weaver shukuchi
+5291,weaver geminate attack
+5292,weaver time lapse
+5293,kobold taskmaster speed aura
+5294,centaur khan endurance aura
+5295,centaur khan war stomp
+5296,gnoll assassin envenomed weapon
+5297,jakiro dual breath
+5298,jakiro ice path
+5299,jakiro liquid fire
+5300,jakiro macropyre
+5301,ghost frost attack
+5302,polar furbolg ursa warrior thunder clap
+5303,neutral spell immunity
+5304,ogre magi frost armor
+5305,dark troll warlord ensnare
+5306,dark troll warlord raise dead
+5307,giant wolf critical strike
+5308,alpha wolf critical strike
+5309,alpha wolf command aura
+5310,tornado tempest
+5312,enraged wildkin tornado
+5313,enraged wildkin toughness aura
+5314,satyr trickster purge
+5315,satyr soulstealer mana burn
+5316,satyr hellcaller shockwave
+5317,satyr hellcaller unholy aura
+5318,forest troll high priest heal
+5319,harpy storm chain lightning
+5320,batrider sticky napalm
+5321,batrider flamebreak
+5322,batrider firefly
+5323,batrider flaming lasso
+5324,black dragon splash attack
+5325,blue dragonspawn sorcerer evasion
+5326,blue dragonspawn overseer evasion
+5327,blue dragonspawn overseer devotion aura
+5328,chen penitence
+5329,chen test of faith
+5330,chen holy persuasion
+5331,chen hand of god
+5332,big thunder lizard slam
+5333,big thunder lizard frenzy
+5334,spectre spectral dagger
+5335,spectre desolate
+5336,spectre dispersion
+5337,spectre haunt
+5338,spectre reality
+5339,doom bringer devour
+5340,doom bringer scorched earth
+5341,doom bringer infernal blade
+5342,doom bringer doom
+5343,doom bringer empty1
+5344,doom bringer empty2
+5345,ancient apparition cold feet
+5346,ancient apparition ice vortex
+5347,ancient apparition chilling touch
+5348,ancient apparition ice blast
+5349,ancient apparition ice blast release
+5350,backdoor protection
+5351,backdoor protection in base
+5352,beastmaster greater boar poison
+5353,spirit breaker charge of darkness
+5354,spirit breaker empowering haste
+5355,spirit breaker greater bash
+5356,spirit breaker nether strike
+5357,ursa earthshock
+5358,ursa overpower
+5359,ursa fury swipes
+5360,ursa enrage
+5361,gyrocopter rocket barrage
+5362,gyrocopter homing missile
+5363,gyrocopter flak cannon
+5364,gyrocopter call down
+5365,alchemist acid spray
+5366,alchemist unstable concoction
+5367,alchemist unstable concoction throw
+5368,alchemist greevils greed
+5369,alchemist chemical rage
+5370,invoker quas
+5371,invoker wex
+5372,invoker exort
+5373,invoker empty1
+5374,invoker empty2
+5375,invoker invoke
+5376,invoker cold snap
+5377,silencer curse of the silent
+5378,silencer glaives of wisdom
+5379,silencer last word
+5380,silencer global silence
+5381,invoker ghost walk
+5382,invoker tornado
+5383,invoker emp
+5384,invoker alacrity
+5385,invoker chaos meteor
+5386,invoker sun strike
+5387,invoker forge spirit
+5388,forged spirit melting strike
+5389,invoker ice wall
+5390,invoker deafening blast
+5391,obsidian destroyer arcane orb
+5392,obsidian destroyer astral imprisonment
+5393,obsidian destroyer essence aura
+5394,obsidian destroyer sanity eclipse
+5395,lycan summon wolves
+5396,lycan howl
+5397,lycan feral impulse
+5398,lycan shapeshift
+5399,lycan summon wolves critical strike
+5400,brewmaster thunder clap
+5401,brewmaster drunken haze
+5402,brewmaster drunken brawler
+5403,brewmaster primal split
+5404,brewmaster earth hurl boulder
+5405,brewmaster earth spell immunity
+5406,brewmaster earth pulverize
+5407,tidehunter dead in the water
+5408,brewmaster storm dispel magic
+5409,brewmaster storm cyclone
+5410,brewmaster storm wind walk
+5411,brewmaster fire permanent immolation
+5412,lone druid summon spirit bear
+5413,lone druid rabid
+5414,lone druid savage roar
+5415,lone druid true form
+5416,lone druid true form druid
+5417,lone druid true form battle cry
+5418,lone druid summon spirit bear return
+5419,lone druid summon spirit bear entangle
+5420,lone druid summon spirit bear demolish
+5421,shadow demon disruption
+5422,shadow demon soul catcher
+5423,shadow demon shadow poison
+5424,shadow demon shadow poison release
+5425,shadow demon demonic purge
+5426,chaos knight chaos bolt
+5427,chaos knight reality rift
+5428,chaos knight chaos strike
+5429,chaos knight phantasm
+5430,meepo earthbind
+5431,meepo poof
+5432,meepo geostrike
+5433,meepo divided we stand
+5434,treant natures guise
+5435,treant leech seed
+5436,treant living armor
+5437,treant overgrowth
+5438,ogre magi fireblast
+5439,ogre magi ignite
+5440,ogre magi bloodlust
+5441,ogre magi multicast
+5442,undying decay
+5443,undying soul rip
+5444,undying tombstone
+5445,undying tombstone zombie aura
+5446,undying tombstone zombie deathstrike
+5447,undying flesh golem
+5448,rubick telekinesis
+5449,rubick telekinesis land
+5450,rubick fade bolt
+5451,rubick null field
+5452,rubick spell steal
+5453,rubick empty1
+5454,rubick empty2
+5455,rubick hidden1
+5456,rubick hidden2
+5457,rubick hidden3
+5458,disruptor thunder strike
+5459,disruptor glimpse
+5460,disruptor kinetic field
+5461,disruptor static storm
+5462,nyx assassin impale
+5463,nyx assassin mana burn
+5464,nyx assassin spiked carapace
+5465,nyx assassin vendetta
+5466,ogre magi unrefined fireblast
+5467,naga siren mirror image
+5468,naga siren ensnare
+5469,naga siren rip tide
+5470,naga siren song of the siren
+5471,keeper of the light illuminate
+5472,keeper of the light mana leak
+5473,keeper of the light chakra magic
+5474,keeper of the light spirit form
+5475,keeper of the light recall
+5476,keeper of the light blinding light
+5477,keeper of the light illuminate end
+5478,naga siren song of the siren cancel
+5479,keeper of the light spirit form illuminate
+5480,visage grave chill
+5481,visage soul assumption
+5482,visage gravekeepers cloak
+5483,visage summon familiars
+5484,visage summon familiars stone form
+5485,wisp tether
+5486,wisp spirits
+5487,wisp overcharge
+5488,wisp relocate
+5489,wisp tether break
+5490,wisp spirits in
+5491,forest troll high priest mana aura
+5492,courier go to secretshop
+5493,wisp spirits out
+5494,slark dark pact
+5495,slark pounce
+5496,slark essence shift
+5497,slark shadow dance
+5500,lycan summon wolves invisibility
+5501,keeper of the light empty1
+5502,keeper of the light empty2
+5503,keeper of the light spirit form illuminate end
+5504,medusa split shot
+5505,medusa mystic snake
+5506,medusa mana shield
+5507,medusa stone gaze
+5508,troll warlord berserkers rage
+5509,troll warlord whirling axes ranged
+5510,troll warlord whirling axes melee
+5511,troll warlord fervor
+5512,troll warlord battle trance
+5514,centaur hoof stomp
+5515,centaur double edge
+5516,centaur return
+5517,centaur stampede
+5518,magnataur shockwave
+5519,magnataur empower
+5520,magnataur skewer
+5521,magnataur reverse polarity
+5522,chen test of faith teleport
+5523,bane nightmare end
+5524,shredder whirling death
+5525,shredder timber chain
+5526,shredder reactive armor
+5527,shredder chakram
+5528,shredder return chakram
+5529,greevil magic missile
+5530,greevil cold snap
+5531,greevil decrepify
+5532,greevil diabolic edict
+5533,greevil maledict
+5534,greevil shadow strike
+5535,greevil laguna blade
+5536,greevil miniboss black nightmare
+5537,greevil miniboss black brain sap
+5538,greevil miniboss blue cold feet
+5539,greevil miniboss blue ice vortex
+5540,greevil miniboss red earthshock
+5541,greevil miniboss red overpower
+5542,greevil miniboss yellow ion shell
+5543,greevil miniboss yellow surge
+5544,greevil miniboss white purification
+5545,greevil miniboss white degen aura
+5546,greevil poison nova
+5547,greevil ice wall
+5548,bristleback viscous nasal goo
+5549,bristleback quill spray
+5550,bristleback bristleback
+5551,bristleback warpath
+5552,greevil fatal bonds
+5553,greevil blade fury
+5554,greevil phantom strike
+5555,greevil time lock
+5556,greevil shadow wave
+5557,greevil leech seed
+5558,greevil echo slam
+5559,greevil natures attendants
+5560,greevil bloodlust
+5561,greevil purification
+5562,greevil flesh golem
+5563,greevil hook
+5564,greevil rot
+5565,tusk ice shards
+5566,tusk snowball
+5567,tusk frozen sigil
+5568,tusk walrus punch
+5569,greevil black hole
+5570,greevil miniboss green living armor
+5571,greevil miniboss green overgrowth
+5572,greevil miniboss orange dragon slave
+5573,greevil miniboss orange light strike array
+5574,greevil miniboss purple venomous gale
+5575,greevil miniboss purple plague ward
+5576,greevil miniboss sight
+5577,throw snowball
+5578,throw coal
+5579,healing campfire
+5581,skywrath mage arcane bolt
+5582,skywrath mage concussive shot
+5583,skywrath mage ancient seal
+5584,skywrath mage mystic flare
+5585,abaddon death coil
+5586,abaddon aphotic shield
+5587,abaddon frostmourne
+5588,abaddon borrowed time
+5589,elder titan echo stomp
+5590,elder titan echo stomp spirit
+5591,elder titan astral spirit
+5592,elder titan return spirit
+5593,elder titan natural order
+5594,elder titan earth splitter
+5595,legion commander overwhelming odds
+5596,legion commander press the attack
+5597,legion commander moment of courage
+5598,legion commander duel
+5599,techies land mines
+5600,techies stasis trap
+5601,techies suicide
+5602,techies remote mines
+5603,ember spirit searing chains
+5604,ember spirit sleight of fist
+5605,ember spirit flame guard
+5606,ember spirit fire remnant
+5607,ember spirit activate fire remnant
+5608,earth spirit boulder smash
+5609,earth spirit rolling boulder
+5610,earth spirit geomagnetic grip
+5611,earth spirit stone remnant
+5612,earth spirit magnetize
+5613,abyssal underlord firestorm
+5614,abyssal underlord pit of malice
+5615,abyssal underlord atrophy aura
+5616,abyssal underlord dark rift
+5617,abyssal underlord cancel dark rift
+5618,roshan halloween spell block
+5619,terrorblade reflection
+5620,terrorblade conjure image
+5621,terrorblade metamorphosis
+5622,terrorblade sunder
+5623,phoenix icarus dive
+5624,phoenix icarus dive stop
+5625,phoenix fire spirits
+5626,phoenix sun ray
+5627,phoenix sun ray stop
+5628,phoenix sun ray toggle move
+5630,phoenix supernova
+5631,phoenix launch fire spirit
+5632,drow ranger wave of silence
+5635,techies focused detonate
+5636,techies remote mines self detonate
+5637,oracle fortunes end
+5638,oracle fates edict
+5639,oracle purifying flames
+5640,oracle false promise
+5641,tusk launch snowball
+5642,courier morph
+5643,broodmother spin web destroy
+5644,techies minefield sign
+5645,shredder chakram 2
+5646,shredder return chakram 2
+5648,earth spirit petrify
+5649,treant eyes in the forest
+5650,shoot firework
+5651,winter wyvern arctic burn
+5652,winter wyvern splinter blast
+5653,winter wyvern cold embrace
+5654,winter wyvern winters curse
+5655,life stealer control
+5656,granite golem hp aura
+5657,life stealer empty 1
+5658,life stealer empty 2
+5659,life stealer empty 3
+5660,life stealer empty 4
+5661,cny beast force attack
+5662,cny2015 sonic wave
+5663,cny2015 black hole
+5664,cny2015 chronosphere
+5665,cny beast teleport
+5666,nyx assassin burrow
+5667,mud golem rock destroy
+5668,tusk ice shards stop
+5669,ability capture
+5670,mud golem hurl boulder
+5671,life stealer assimilate
+5672,tusk walrus kick
+5673,nyx assassin unburrow
+5674,morphling hybrid
+5675,life stealer assimilate eject
+5676,courier take stash and transfer items
+5677,arc warden flux
+5678,arc warden magnetic field
+5679,arc warden spark wraith
+5680,granite golem bash
+5681,black dragon dragonhide aura
+5682,big thunder lizard wardrums aura
+5683,arc warden tempest double
+5684,obsidian destroyer equilibrium
+5685,death prophet spirit siphon
+5686,ancient golem rockslide
+5687,lone druid savage roar bear
+5688,mudgolem cloak aura
+5689,black dragon fireball
+5690,invoker attribute bonus
+5691,faceless void time dilation
+5716,monkey king boundless strike
+5719,monkey king mischief
+5721,monkey king tree dance
+5722,monkey king untransform
+5723,monkey king jingu mastery
+5724,monkey king primal spring
+5725,monkey king wukongs command
+5726,monkey king primal spring early
+5750,elder titan natural order spirit
+5751,muerta dead shot
+5752,muerta the calling
+5753,muerta gunslinger
+5754,muerta pierce the veil
+5755,special bonus unique muerta dead shot charges
+5756,special bonus unique muerta dead shot damage
+5757,special bonus unique muerta dead shot range
+5758,special bonus unique muerta the calling num revenants
+5759,special bonus unique muerta gunslinger double shot chance
+5760,muerta parting shot
+5761,special bonus unique invoker ice wall dps
+5762,special bonus unique invoker additional chaos meteors
+5763,special bonus unique tusk tag team armor reduction
+5900,special bonus hp 100
+5901,special bonus hp 125
+5902,special bonus hp 150
+5903,special bonus hp 250
+5904,special bonus mp 125
+5905,special bonus mp 150
+5906,special bonus attack speed 20
+5907,special bonus attack speed 30
+5908,special bonus attack speed 60
+5909,special bonus hp regen 4
+5910,special bonus hp regen 5
+5911,special bonus hp regen 8
+5912,special bonus hp regen 10
+5913,special bonus hp regen 14
+5914,special bonus hp regen 15
+5915,special bonus mp regen 1
+5916,special bonus mp regen 4
+5917,special bonus movement speed 15
+5918,special bonus movement speed 20
+5919,special bonus movement speed 25
+5920,special bonus all stats 4
+5921,special bonus all stats 5
+5922,special bonus all stats 6
+5923,special bonus all stats 8
+5924,special bonus intelligence 6
+5925,special bonus intelligence 8
+5926,special bonus intelligence 12
+5927,special bonus strength 5
+5928,special bonus strength 12
+5929,special bonus agility 15
+5930,special bonus armor 3
+5931,special bonus armor 4
+5932,special bonus armor 5
+5933,special bonus armor 6
+5934,special bonus armor 8
+5935,special bonus magic resistance 5
+5936,special bonus magic resistance 8
+5937,special bonus magic resistance 10
+5938,special bonus attack damage 15
+5939,special bonus attack damage 30
+5940,special bonus attack damage 40
+5941,special bonus attack damage 50
+5942,special bonus attack damage 70
+5943,special bonus attack range 100
+5944,special bonus attack range 125
+5945,special bonus attack range 200
+5946,special bonus cast range 50
+5947,special bonus cast range 75
+5948,special bonus spell amplify 5
+5949,special bonus spell amplify 8
+5950,special bonus cooldown reduction 8
+5951,special bonus cooldown reduction 15
+5952,special bonus cooldown reduction 20
+5953,special bonus respawn reduction 20
+5954,special bonus respawn reduction 25
+5955,special bonus gold income 30
+5956,special bonus gold income 60
+5957,special bonus gold income 150
+5958,special bonus movement speed 10
+5959,special bonus hp 200
+5960,special bonus attack damage 20
+5961,special bonus mp regen 2
+5962,special bonus agility 20
+5963,special bonus attack range 150
+5964,special bonus respawn reduction 30
+5965,special bonus intelligence 10
+5966,special bonus hp regen 7
+5968,special bonus attack damage 90
+5969,special bonus hp regen 6
+5970,special bonus armor 7
+5971,special bonus evasion 10
+5972,special bonus evasion 15
+5973,special bonus evasion 20
+5974,special bonus evasion 25
+5975,special bonus respawn reduction 15
+5976,special bonus hp 400
+5977,special bonus unique clockwerk
+5978,special bonus strength 13
+5979,special bonus attack damage 100
+5980,special bonus mp regen 6
+5981,special bonus unique omniknight 1
+5982,special bonus strength 8
+5983,special bonus exp boost 5
+5984,special bonus strength 25
+5985,special bonus exp boost 10
+5986,special bonus exp boost 15
+5987,special bonus exp boost 25
+5988,special bonus unique centaur 2
+5989,special bonus spell amplify 10
+5990,special bonus mp 300
+5991,special bonus intelligence 15
+5992,special bonus attack range 50
+5993,special bonus hp 300
+5994,special bonus magic resistance 6
+5995,special bonus intelligence 20
+5996,special bonus spell amplify 6
+5998,special bonus unique witch doctor 1
+6000,special bonus magic resistance 20
+6002,special bonus strength 3
+6003,special bonus cast range 100
+6004,special bonus armor 10
+6005,special bonus strength 4
+6006,special bonus mp 250
+6007,special bonus gold income 90
+6008,special bonus gold income 120
+6009,special bonus attack damage 25
+6010,special bonus unique necrophos
+6011,special bonus agility 13
+6012,special bonus unique antimage
+6013,special bonus unique mirana 1
+6014,special bonus agility 8
+6015,special bonus spell amplify 4
+6016,special bonus attack speed 25
+6017,special bonus exp boost 20
+6018,special bonus unique bounty hunter
+6019,special bonus unique underlord
+6020,special bonus attack speed 50
+6021,special bonus cooldown reduction 10
+6022,special bonus hp regen 40
+6023,special bonus unique pudge 1
+6024,special bonus unique treant
+6025,special bonus 20 bash 2
+6026,special bonus gold income 180
+6027,special bonus attack range 75
+6028,special bonus unique razor
+6029,special bonus agility 10
+6030,special bonus attack speed 80
+6031,special bonus unique visage 1
+6032,special bonus cast range 60
+6034,special bonus hp 175
+6035,special bonus unique earthshaker
+6037,special bonus attack speed 100
+6038,special bonus respawn reduction 35
+6039,special bonus unique lich 1
+6040,special bonus attack range 250
+6041,special bonus unique rubick
+6042,special bonus intelligence 13
+6045,special bonus unique sven
+6047,special bonus unique dark seer
+6048,special bonus strength 6
+6049,special bonus unique dazzle 1
+6050,special bonus intelligence 25
+6051,special bonus attack range 300
+6052,special bonus unique shadow shaman 1
+6053,special bonus unique warlock 1
+6054,special bonus unique warlock 2
+6055,special bonus spell amplify 15
+6056,special bonus cast range 150
+6057,special bonus unique vengeful spirit 3
+6058,special bonus unique venomancer
+6059,special bonus respawn reduction 60
+6060,special bonus intelligence 30
+6061,special bonus spell lifesteal 70
+6062,special bonus unique morphling 1
+6063,special bonus unique leshrac 1
+6064,special bonus unique jakiro
+6065,special bonus unique enigma
+6066,special bonus respawn reduction 40
+6067,special bonus mp 175
+6068,special bonus unique bane 1
+6069,special bonus unique bane 2
+6070,special bonus unique nevermore 2
+6071,special bonus unique templar assassin
+6072,special bonus unique crystal maiden 1
+6073,special bonus unique doom 1
+6074,special bonus all stats 7
+6077,special bonus movement speed 35
+6078,special bonus lifesteal 20
+6079,special bonus hp regen 20
+6080,special bonus strength 20
+6082,special bonus unique brewmaster
+6083,special bonus unique bristleback
+6084,special bonus unique furion
+6085,special bonus unique phoenix 2
+6086,special bonus unique enchantress 2
+6087,special bonus unique batrider 1
+6088,special bonus unique wraith king 2
+6089,special bonus unique kunkka
+6090,special bonus unique dragon knight
+6091,special bonus magic resistance 25
+6092,special bonus day vision 400
+6093,special bonus movement speed 40
+6094,special bonus mp 200
+6095,special bonus attack damage 10
+6096,special bonus mp 100
+6097,special bonus unique invoker 1
+6098,special bonus unique invoker 2
+6099,special bonus unique invoker 3
+6100,special bonus unique abaddon
+6101,special bonus unique alchemist
+6102,special bonus unique axe
+6103,special bonus unique beastmaster
+6104,special bonus unique clinkz 1
+6105,special bonus unique juggernaut
+6106,special bonus unique winter wyvern 1
+6107,special bonus unique terrorblade
+6110,special bonus armor 2
+6111,special bonus lifesteal 25
+6112,special bonus attack damage 120
+6114,special bonus cast range 200
+6115,special bonus strength 7
+6116,special bonus mp regen 10
+6117,special bonus intelligence 7
+6118,special bonus attack speed 10
+6119,special bonus attack speed 15
+6120,special bonus cast range 175
+6121,special bonus lifesteal 30
+6122,special bonus status resistance 15
+6123,special bonus status resistance 20
+6124,special bonus status resistance 25
+6125,spawnlord aura
+6126,spawnlord master bash
+6127,special bonus unique luna 2
+6128,special bonus unique faceless void
+6129,special bonus unique night stalker
+6130,special bonus unique nyx
+6131,special bonus unique weaver 2
+6132,special bonus unique ursa
+6133,special bonus unique chaos knight
+6134,special bonus unique lycan 1
+6135,special bonus all stats 15
+6136,special bonus armor 9
+6137,special bonus strength 10
+6138,special bonus magic resistance 15
+6139,special bonus all stats 12
+6140,special bonus unique lycan 2
+6141,special bonus movement speed 30
+6142,special bonus attack damage 65
+6144,special bonus unique windranger
+6145,special bonus strength 15
+6146,special bonus unique phantom lancer
+6147,special bonus unique slark
+6148,special bonus unique spectre
+6149,special bonus unique spirit breaker 1
+6150,special bonus agility 25
+6151,special bonus unique tidehunter
+6152,special bonus unique tinker
+6153,special bonus unique tiny
+6154,special bonus unique troll warlord
+6155,special bonus unique undying
+6156,special bonus unique viper 1
+6157,special bonus unique zeus
+6158,special bonus lifesteal 10
+6159,special bonus attack damage 12
+6160,special bonus mp regen 3
+6161,special bonus cast range 250
+6162,special bonus spell amplify 3
+6164,special bonus attack damage 35
+6165,special bonus unique viper 2
+6166,special bonus spell lifesteal 20
+6167,special bonus unique storm spirit
+6168,special bonus all stats 10
+6169,special bonus agility 16
+6170,special bonus agility 14
+6171,special bonus unique elder titan
+6172,special bonus unique ember spirit 1
+6173,special bonus unique lifestealer
+6174,special bonus unique lion
+6175,special bonus armor 15
+6176,special bonus unique ember spirit 2
+6180,special bonus unique luna 1
+6181,special bonus unique skywrath
+6182,special bonus unique medusa
+6183,special bonus unique ogre magi
+6184,special bonus unique silencer
+6185,special bonus mp 500
+6186,special bonus attack range 175
+6190,special bonus cooldown reduction 12
+6191,special bonus unique death prophet
+6192,special bonus unique phantom assassin
+6193,special bonus unique riki 2
+6194,special bonus unique tusk
+6195,special bonus hp 350
+6196,special bonus attack speed 35
+6197,special bonus cast range 125
+6198,special bonus unique sniper 2
+6199,special bonus unique magnus
+6200,special bonus unique weaver 1
+6201,special bonus unique wraith king 1
+6202,special bonus unique drow ranger 1
+6203,special bonus unique earth spirit
+6204,special bonus unique huskar
+6205,special bonus unique naga siren
+6206,special bonus unique oracle
+6207,special bonus unique sand king
+6208,special bonus unique shadow demon 1
+6209,special bonus unique drow ranger 2
+6210,special bonus attack speed 40
+6211,special bonus unique slardar
+6212,special bonus unique lina 1
+6213,special bonus cast range 300
+6214,special bonus unique ancient apparition 1
+6215,special bonus unique disruptor
+6216,special bonus unique gyrocopter 1
+6217,special bonus unique keeper of the light
+6218,special bonus unique legion commander
+6219,special bonus unique puck
+6220,special bonus unique pugna 1
+6221,special bonus magic resistance 30
+6222,special bonus cooldown reduction 25
+6223,special bonus unique timbersaw
+6224,special bonus attack speed 45
+6225,special bonus unique morphling 2
+6226,filler ability
+6227,special bonus unique phoenix 1
+6228,special bonus vision 200
+6229,special bonus unique batrider 2
+6230,special bonus unique bloodseeker
+6231,special bonus unique clinkz 2
+6232,special bonus unique dazzle 2
+6234,special bonus unique crystal maiden 2
+6235,special bonus hp 500
+6236,special bonus spell amplify 20
+6237,special bonus unique vengeful spirit 2
+6238,special bonus unique pugna 2
+6239,special bonus evasion 12
+6240,special bonus unique leshrac 2
+6241,special bonus unique outworld devourer
+6242,special bonus unique mirana 2
+6243,special bonus mp regen 8
+6245,special bonus unique pudge 2
+6247,special bonus attack damage 150
+6248,special bonus intelligence 35
+6249,special bonus movement speed 45
+6250,special bonus strength 9
+6251,generic hidden
+6252,special bonus all stats 14
+6253,special bonus attack damage 45
+6254,special bonus mp 350
+6255,special bonus mp regen 14
+6257,special bonus unique broodmother 1
+6258,special bonus unique broodmother 2
+6259,special bonus unique chen 1
+6260,special bonus unique chen 2
+6261,special bonus unique lone druid 1
+6262,special bonus unique lone druid 2
+6263,special bonus unique lone druid 3
+6265,special bonus unique wisp
+6268,special bonus unique lone druid 4
+6269,special bonus respawn reduction 50
+6270,spawnlord master stomp
+6278,spawnlord master freeze
+6280,special bonus unique drow ranger 3
+6281,special bonus strength 14
+6282,special bonus unique techies
+6285,special bonus undefined
+6286,special bonus armor 12
+6287,special bonus unique arc warden
+6288,special bonus unique meepo
+6289,special bonus lifesteal 15
+6291,special bonus unique ancient apparition 2
+6292,special bonus unique lich 2
+6293,special bonus unique shadow demon 2
+6295,special bonus unique shadow shaman 2
+6296,special bonus unique spirit breaker 2
+6297,special bonus unique winter wyvern 2
+6298,special bonus unique witch doctor 2
+6299,special bonus magic resistance 12
+6300,special bonus unique omniknight 2
+6301,special bonus gold income 240
+6302,special bonus hp regen 50
+6303,special bonus unique monkey king
+6305,special bonus unique sniper 1
+6306,special bonus movement speed 50
+6307,special bonus attack range 400
+6308,special bonus hp regen 25
+6309,special bonus all stats 20
+6310,special bonus unique vengeful spirit 1
+6311,special bonus hp 275
+6312,special bonus unique gyrocopter 2
+6313,special bonus unique lina 2
+6314,special bonus unique doom 2
+6316,necrolyte sadist stop
+6317,special bonus exp boost 30
+6318,special bonus gold income 300
+6320,special bonus unique visage 2
+6321,special bonus mp 400
+6322,special bonus unique centaur 1
+6325,zuus cloud
+6326,special bonus spell amplify 12
+6327,special bonus spell amplify 25
+6328,courier transfer items to other player
+6329,courier go to enemy secretshop
+6330,special bonus unique riki 1
+6331,special bonus unique enchantress 1
+6332,special bonus intelligence 16
+6333,courier go to sideshop
+6334,courier go to sideshop2
+6339,dark willow bramble maze
+6340,dark willow bedlam
+6341,dark willow shadow realm
+6342,dark willow cursed crown
+6343,pangolier gyroshell
+6344,pangolier swashbuckle
+6346,pangolier heartpiercer
+6350,special bonus unique alchemist 2
+6351,special bonus hp regen 30
+6352,special bonus unique ancient apparition 3
+6353,special bonus unique antimage 2
+6354,special bonus unique arc warden 2
+6355,special bonus movement speed 75
+6356,special bonus unique bloodseeker 2
+6357,special bonus unique bloodseeker 3
+6358,special bonus unique bounty hunter 2
+6359,special bonus unique brewmaster 2
+6360,special bonus unique bristleback 2
+6361,special bonus unique broodmother 3
+6362,special bonus unique broodmother 4
+6363,special bonus unique chen 3
+6364,special bonus unique clockwerk 2
+6365,special bonus unique dark seer 2
+6366,special bonus attack damage 60
+6367,special bonus unique death prophet 2
+6368,special bonus unique disruptor 2
+6369,special bonus unique doom 3
+6370,special bonus unique doom 4
+6371,special bonus unique doom 5
+6372,special bonus exp boost 35
+6373,special bonus movement speed 60
+6375,special bonus respawn reduction 45
+6377,special bonus hp 600
+6378,special bonus unique elder titan 2
+6379,special bonus unique enchantress 3
+6380,special bonus unique huskar 2
+6381,special bonus unique jakiro 2
+6382,special bonus mp 600
+6383,special bonus unique morphling waveform cooldown
+6384,special bonus cast range 400
+6385,special bonus unique kunkka 2
+6386,special bonus magic resistance 35
+6387,special bonus unique lich 3
+6388,special bonus unique lina 3
+6389,special bonus unique lion 2
+6390,special bonus unique magnus 2
+6392,special bonus unique medusa 2
+6396,special bonus attack damage 55
+6397,special bonus unique mirana 3
+6398,special bonus unique naga siren 2
+6399,special bonus unique nyx 2
+6400,special bonus unique phantom lancer 2
+6401,special bonus unique phoenix 3
+6402,special bonus unique puck 2
+6403,special bonus unique pugna 3
+6405,special bonus hp 225
+6406,special bonus agility 30
+6407,special bonus unique queen of pain
+6408,special bonus unique razor 2
+6409,special bonus unique sand king 2
+6410,special bonus mp regen 5
+6411,special bonus unique tusk 2
+6412,special bonus unique warlock 3
+6413,special bonus unique windranger 2
+6414,special bonus unique wraith king 3
+6415,special bonus hp 700
+6420,special bonus unique undying 2
+6421,special bonus unique monkey king 2
+6422,special bonus movement speed 100
+6423,special bonus hp 325
+6425,special bonus unique earthshaker 2
+6430,special bonus agility 40
+6444,special bonus attack speed 70
+6445,special bonus cooldown reduction 40
+6446,special bonus gold income 420
+6447,special bonus exp boost 40
+6448,special bonus unique pugna 4
+6449,special bonus unique legion commander 2
+6459,pangolier gyroshell stop
+6461,pangolier shield crash
+6463,special bonus unique pangolier 2
+6464,special bonus unique dark willow 1
+6465,special bonus unique dark willow 2
+6470,void spirit dissimilate
+6479,special bonus unique snapfire 5
+6480,snapfire scatterblast
+6482,snapfire mortimer kisses
+6483,snapfire firesnap cookie
+6484,snapfire gobble up
+6485,special bonus unique snapfire 1
+6486,snapfire spit creep
+6487,special bonus unique snapfire 2
+6488,snapfire lil shredder
+6489,special bonus unique snapfire 3
+6490,special bonus unique snapfire 4
+6491,grimstroke soul chain
+6495,mars gods rebuke
+6500,special bonus unique furion 2
+6501,special bonus unique zeus 2
+6502,special bonus unique shadow shaman 3
+6503,special bonus armor 20
+6504,special bonus mp 225
+6505,special bonus unique warlock 4
+6506,special bonus unique pudge 3
+6507,special bonus unique magnus 3
+6508,special bonus unique lone druid 5
+6509,special bonus unique lina 4
+6510,special bonus unique enigma 2
+6511,special bonus unique earthshaker 3
+6512,special bonus unique clockwerk 3
+6513,special bonus spell lifesteal 30
+6514,special bonus unique earth spirit 2
+6515,special bonus unique enchantress 4
+6516,special bonus unique brewmaster 3
+6517,special bonus unique beastmaster 2
+6518,special bonus unique zeus 3
+6519,special bonus unique lycan 3
+6520,special bonus unique crystal maiden 3
+6521,special bonus unique shadow shaman 4
+6522,special bonus unique visage 3
+6523,special bonus unique winter wyvern 3
+6524,special bonus unique witch doctor 3
+6526,special bonus unique legion commander 3
+6527,special bonus unique keeper of the light 2
+6528,special bonus unique dazzle 3
+6530,special bonus unique sand king 3
+6531,special bonus unique treant 2
+6532,special bonus unique venomancer 2
+6534,special bonus unique ancient apparition 4
+6535,special bonus unique chen 4
+6536,special bonus unique disruptor 3
+6537,special bonus unique wisp 2
+6538,special bonus unique jakiro 3
+6539,special bonus unique furion 3
+6540,special bonus unique oracle 2
+6541,special bonus unique pugna 5
+6542,special bonus unique shadow demon 3
+6543,special bonus unique spirit breaker 3
+6545,special bonus unique templar assassin 2
+6546,special bonus unique undying 3
+6550,special bonus spell lifesteal 15
+6552,special bonus unique techies 2
+6553,special bonus attack damage 400
+6555,special bonus attack speed 140
+6556,special bonus attack damage 250
+6560,special bonus spell lifesteal 13
+6561,special bonus cooldown reduction 30
+6562,special bonus unique windranger 3
+6563,elder titan move spirit
+6564,special bonus spell lifesteal 10
+6565,special bonus spell lifesteal 8
+6566,special bonus unique wraith king 4
+6567,special bonus intelligence 14
+6575,special bonus spell lifesteal 60
+6582,mars bulwark
+6583,mars spear
+6584,special bonus unique mars spear stun duration
+6598,mars blood sport of blood
+6600,special bonus unique lion 3
+6601,special bonus unique abaddon 2
+6602,special bonus unique abaddon 3
+6603,special bonus cleave 20
+6604,special bonus unique alchemist 3
+6605,special bonus attack speed 160
+6606,special bonus unique antimage 3
+6607,special bonus unique antimage 4
+6608,special bonus unique axe 2
+6609,special bonus unique bane 3
+6610,special bonus unique batrider 3
+6611,special bonus unique beastmaster 3
+6612,special bonus unique beastmaster 4
+6613,special bonus evasion 50
+6614,special bonus unique brewmaster 4
+6615,special bonus unique bristleback 3
+6616,special bonus unique centaur 3
+6617,special bonus unique centaur 4
+6618,special bonus unique chaos knight 2
+6619,special bonus unique chaos knight 3
+6620,special bonus unique clinkz 3
+6622,special bonus attack speed 200
+6623,special bonus attack speed 225
+6624,special bonus unique dark seer 3
+6626,special bonus unique dazzle 4
+6628,special bonus unique death prophet 3
+6629,special bonus haste
+6630,special bonus unique disruptor 4
+6631,special bonus cleave 60
+6633,special bonus strength 40
+6634,special bonus unique drow ranger 4
+6635,special bonus unique dragon knight 2
+6640,special bonus unique earth spirit 3
+6641,special bonus magic resistance 50
+6645,special bonus armor 30
+6646,special bonus spell immunity
+6647,special bonus unique ember spirit 3
+6648,special bonus unique enchantress 5
+6649,special bonus unique enigma 3
+6650,special bonus attack speed 120
+6651,special bonus unique faceless void 2
+6652,special bonus unique gyrocopter 3
+6653,special bonus unique gyrocopter 4
+6654,special bonus unique gyrocopter 5
+6655,special bonus unique huskar 3
+6656,special bonus unique invoker 4
+6657,special bonus unique invoker 5
+6659,special bonus unique wisp 3
+6660,special bonus hp regen 80
+6661,special bonus unique jakiro 4
+6662,special bonus unique juggernaut 2
+6663,special bonus magic resistance 40
+6665,special bonus unique keeper of the light 3
+6666,special bonus unique kunkka 3
+6667,special bonus unique kunkka 4
+6670,special bonus unique nevermore 1
+6671,special bonus unique legion commander 4
+6672,special bonus unique leshrac 3
+6676,special bonus unique lifestealer 2
+6677,special bonus reincarnation 200
+6678,special bonus unique lion 4
+6679,special bonus unique lone druid 6
+6680,special bonus unique lone druid 7
+6682,special bonus unique luna 3
+6684,special bonus unique lycan 4
+6685,special bonus unique lycan 5
+6686,special bonus mp 1000
+6687,special bonus unique medusa 3
+6689,special bonus unique meepo 2
+6690,special bonus unique magnus 4
+6691,special bonus unique magnus 5
+6692,special bonus unique mirana 4
+6695,special bonus mana break 40
+6696,special bonus unique monkey king 3
+6697,special bonus unique monkey king 4
+6698,special bonus unique morphling 3
+6700,special bonus evasion 30
+6701,special bonus unique naga siren 3
+6702,special bonus unique furion 4
+6703,special bonus unique necrophos 2
+6704,special bonus unique night stalker 2
+6705,special bonus agility 100
+6706,special bonus movement speed 90
+6707,special bonus unique ogre magi 2
+6708,special bonus strength 30
+6709,special bonus unique omniknight 3
+6710,special bonus unique oracle 3
+6711,special bonus unique outworld devourer 2
+6712,special bonus unique outworld devourer 3
+6720,special bonus unique elder titan 3
+6721,special bonus lifesteal 100
+6730,special bonus hp regen 12
+6756,special bonus unique mars gods rebuke extra crit
+6759,special bonus unique mars spear bonus damage
+6766,special bonus unique mars blood sport of blood hp regen
+6800,special bonus unique antimage 5
+6801,special bonus cleave 25
+6803,special bonus unique medusa 4
+6804,special bonus cooldown reduction 50
+6805,special bonus unique death prophet 4
+6806,special bonus unique lone druid 8
+6807,special bonus unique faceless void 3
+6808,special bonus unique wisp 4
+6809,special bonus unique bloodseeker 4
+6810,special bonus unique ancient apparition 5
+6811,special bonus unique invoker 6
+6812,special bonus unique disruptor 5
+6814,special bonus unique nyx 3
+6815,special bonus unique axe 3
+6816,special bonus mp 800
+6817,special bonus spell lifesteal 6
+6819,special bonus unique viper 3
+6820,special bonus unique viper 4
+6821,special bonus unique wraith king 5
+6822,special bonus unique wraith king 6
+6825,special bonus mana break 35
+6826,special bonus unique bane 4
+6827,special bonus cleave 100
+6830,special bonus mana break 25
+6840,special bonus unique morphling 4
+6845,special bonus cleave 15
+6846,special bonus corruption 5
+6847,special bonus unique phantom assassin 2
+6848,special bonus unique phantom assassin 3
+6849,special bonus unique phantom lancer 3
+6850,special bonus unique phantom lancer 4
+6851,special bonus 24 crit 2
+6852,special bonus unique phoenix 4
+6855,special bonus unique puck 3
+6856,special bonus unique queen of pain 2
+6859,special bonus unique pugna 6
+6860,special bonus unique razor 3
+6861,special bonus unique razor 4
+6862,special bonus unique rubick 2
+6863,special bonus unique rubick 3
+6864,special bonus unique rubick 4
+6865,special bonus unique riki 3
+6866,special bonus unique riki 4
+6867,special bonus unique riki 5
+6870,special bonus unique rubick 5
+6872,special bonus unique sand king 5
+6873,special bonus unique shadow demon 4
+6874,special bonus magic resistance 100
+6875,special bonus unique nevermore 3
+6876,special bonus unique nevermore 4
+6877,special bonus unique shadow shaman 5
+6878,special bonus unique silencer 2
+6879,special bonus unique silencer 3
+6880,special bonus unique silencer 4
+6882,special bonus evasion 75
+6884,special bonus unique skywrath 2
+6885,special bonus unique skywrath 3
+6886,special bonus unique skywrath 4
+6888,special bonus night vision 1000
+6889,special bonus unique slardar 2
+6890,special bonus unique slardar 3
+6892,special bonus unique slark 2
+6893,special bonus unique slark 3
+6894,special bonus unique slark 4
+6896,special bonus unique sniper 3
+6897,special bonus unique sniper 4
+6900,special bonus unique spectre 2
+6901,special bonus unique spectre 3
+6902,special bonus unique spectre 4
+6903,special bonus unique spectre 5
+6905,special bonus hp 800
+6906,special bonus unique storm spirit 2
+6907,special bonus unique storm spirit 3
+6908,special bonus unique storm spirit 4
+6910,special bonus unique sven 2
+6911,special bonus unique sven 3
+6912,special bonus unique nevermore 5
+6915,special bonus unique phoenix 5
+6916,special bonus unique storm spirit 5
+6920,special bonus night vision 400
+6921,special bonus unique skywrath 5
+6922,special bonus truestrike
+6924,special bonus unique wisp 5
+6926,special bonus mp regen 175
+6927,special bonus unique morphling 5
+6930,special bonus cast range 350
+6932,special bonus unique tiny 2
+6933,special bonus unique tiny 3
+6934,special bonus unique tiny 4
+6937,tiny toss tree
+6938,special bonus unique templar assassin 3
+6939,special bonus unique templar assassin 4
+6940,special bonus unique templar assassin 5
+6942,special bonus unique terrorblade 2
+6943,special bonus unique terrorblade 3
+6945,special bonus unique tidehunter 2
+6946,special bonus unique tidehunter 3
+6947,special bonus unique tidehunter 4
+6948,special bonus unique timbersaw 2
+6949,special bonus unique timbersaw 3
+6951,special bonus unique timbersaw 4
+6952,special bonus unique tinker 2
+6953,special bonus unique tinker 3
+6955,special bonus unique treant 3
+6956,special bonus unique treant 4
+6957,special bonus unique treant 5
+6958,special bonus unique troll warlord 2
+6959,special bonus unique troll warlord 3
+6960,special bonus unique troll warlord 4
+6961,special bonus unique tusk 3
+6962,special bonus unique tusk 4
+6963,special bonus unique tusk 5
+6965,special bonus magic resistance 80
+6967,special bonus unique underlord 2
+6968,special bonus unique underlord 3
+6969,special bonus unique underlord 4
+6970,special bonus unique oracle 4
+6971,special bonus unique undying 4
+6972,special bonus unique undying 5
+6973,special bonus unique ursa 2
+6974,special bonus unique ursa 3
+6975,special bonus unique ursa 4
+6976,special bonus unique ursa 5
+6977,special bonus unique vengeful spirit 4
+6978,special bonus unique vengeful spirit 5
+6979,special bonus unique venomancer 3
+6980,special bonus unique venomancer 4
+6981,special bonus unique venomancer 5
+6982,special bonus unique warlock 5
+6983,special bonus unique visage 4
+6984,special bonus unique visage 5
+6985,special bonus unique visage 6
+6986,special bonus unique warlock 6
+6987,special bonus mana break 20
+6988,special bonus unique weaver 3
+6989,special bonus unique weaver 4
+6990,special bonus unique weaver 5
+6991,special bonus unique axe 4
+6992,special bonus unique windranger 4
+6993,special bonus unique windranger 5
+6994,special bonus unique winter wyvern 4
+6995,special bonus unique witch doctor 4
+6996,special bonus unique witch doctor 5
+6997,special bonus unique techies 3
+6998,special bonus unique techies 4
+6999,special bonus unique venomancer 6
+7000,morphling adaptive strike str
+7001,special bonus unique faceless void 4
+7002,special bonus unique shadow demon 5
+7005,special bonus unique tiny 5
+7010,special bonus unique omniknight 4
+7011,special bonus corruption 4
+7012,special bonus unique lifestealer 3
+7016,special bonus unique invoker 7
+7017,special bonus unique invoker 8
+7018,special bonus unique vengeful spirit 6
+7019,special bonus night vision 600
+7020,special bonus attack speed 250
+7021,special bonus unique juggernaut 3
+7022,special bonus night vision 500
+7024,special bonus unique monkey king 5
+7025,special bonus unique monkey king 6
+7027,special bonus unique meepo 3
+7028,special bonus unique clockwerk 4
+7029,special bonus unique naga siren 4
+7030,special bonus unique ogre magi 3
+7034,special bonus spell block 15
+7035,special bonus spell block 20
+7036,special bonus unique lone druid 9
+7038,special bonus unique monkey king 7
+7039,special bonus attack damage 251
+7040,special bonus unique bounty hunter 3
+7042,special bonus unique crystal maiden 4
+7045,special bonus 20 crit 15
+7046,special bonus unique dark seer 4
+7047,special bonus unique luna 4
+7048,special bonus unique silencer 5
+7050,special bonus unique ember spirit 4
+7051,special bonus unique ember spirit 5
+7052,special bonus unique morphling 6
+7054,special bonus unique alchemist 4
+7055,special bonus unique luna 5
+7056,special bonus unique morphling 7
+7057,special bonus unique puck 4
+7058,special bonus unique templar assassin 6
+7059,special bonus mp 700
+7060,special bonus unique morphling 8
+7061,special bonus unique shadow demon 6
+7062,special bonus unique windranger 6
+7070,special bonus unique wisp 6
+7071,special bonus unique wisp 8
+7072,special bonus unique wisp 9
+7073,special bonus unique wisp 10
+7101,special bonus unique leshrac 4
+7102,special bonus unique meepo 4
+7103,special bonus unique treant 6
+7104,special bonus unique arc warden 3
+7105,special bonus unique arc warden 4
+7106,special bonus unique ancient apparition 6
+7107,special bonus unique wraith king 7
+7108,special bonus unique wraith king 8
+7109,special bonus cooldown reduction 65
+7110,special bonus unique necrophos 3
+7111,special bonus unique necrophos 4
+7112,special bonus unique sven 4
+7113,special bonus unique dragon knight 3
+7114,special bonus unique dragon knight 4
+7115,special bonus unique treant 7
+7116,visage stone form self cast
+7117,special bonus cast range 275
+7118,special bonus unique shadow demon 7
+7120,special bonus unique arc warden 5
+7122,special bonus cleave 30
+7123,special bonus unique doom 6
+7124,special bonus cleave 150
+7125,special bonus exp boost 60
+7130,special bonus movement speed 65
+7131,special bonus unique kunkka 5
+7132,special bonus mp regen 150
+7133,special bonus unique ursa 6
+7135,special bonus strength 35
+7140,special bonus unique huskar 4
+7141,special bonus unique gyrocopter 6
+7142,special bonus unique pudge 4
+7143,special bonus unique huskar 5
+7144,special bonus unique alchemist 5
+7145,special bonus 50 crit 40
+7148,special bonus unique invoker 9
+7188,special bonus hp regen 16
+7200,special bonus cleave 40
+7201,special bonus cleave 130
+7230,beastmaster call of the wild boar
+7231,beastmaster call of the wild hawk
+7246,grimstroke return
+7300,huskar inner fire
+7301,spirit breaker bulldoze
+7304,dazzle bad juju
+7306,chen divine favor
+7307,pangolier lucky shot
+7308,lone druid summon spirit bear defender
+7309,lone druid spirit link
+7310,brewmaster cinder brew
+7311,lich dark sorcery
+7312,lich frost aura
+7314,antimage counterspell
+7316,keeper of the light will o wisp
+7318,meepo ransack
+7319,clinkz burning army
+7320,rubick arcane supremacy
+7322,tusk tag team
+7323,omniknight pacify
+7325,lich sinister gaze
+7335,special bonus unique abaddon 4
+7340,special bonus unique abaddon 5
+7350,special bonus unique elder titan 4
+7360,special bonus unique lich 4
+7370,special bonus attack base damage 45
+7371,special bonus unique templar assassin 7
+7372,special bonus attack base damage 30
+7375,special bonus unique outworld devourer 4
+7380,special bonus unique dragon knight 5
+7381,special bonus unique dragon knight 6
+7382,special bonus unique lone druid 10
+7383,special bonus corruption 3
+7384,special bonus agility 6
+7385,special bonus reincarnation 250
+7386,special bonus agility 12
+7388,special bonus unique faceless void 5
+7389,special bonus unique medusa 5
+7390,special bonus unique invoker 10
+7394,special bonus unique juggernaut 4
+7395,special bonus unique legion commander 5
+7396,special bonus unique sniper 5
+7398,special bonus unique keeper of the light 4
+7401,special bonus spell amplify 14
+7422,ancient apparition ice age
+7472,special bonus cast speed 30
+7651,special bonus unique chaos knight 4
+7652,special bonus unique ancient apparition 7
+7653,special bonus unique chen 7
+7654,special bonus unique crystal maiden 5
+7655,special bonus unique dark willow 4
+7656,special bonus unique disruptor 6
+7657,special bonus unique earth spirit 5
+7658,special bonus unique enigma 5
+7659,special bonus unique grimstroke 5
+7660,special bonus unique jakiro 5
+7661,special bonus unique earth spirit 6
+7662,special bonus unique earth spirit 7
+7670,special bonus cleave 175
+7701,void spirit aether remnant
+7705,void spirit astral step
+7706,special bonus unique void spirit 1
+7707,special bonus unique void spirit 2
+7708,special bonus unique void spirit 3
+7709,special bonus unique void spirit 4
+7710,void spirit resonant pulse
+7711,special bonus unique void spirit 5
+7712,special bonus unique void spirit 6
+7713,special bonus unique void spirit 7
+7714,special bonus unique void spirit 8
+7715,special bonus unique void spirit 9
+7739,primal beast rock throw
+7740,special bonus unique primal beast roar dispells
+7741,special bonus unique primal beast onslaught damage
+7742,special bonus unique primal beast trample attack damage
+7743,special bonus unique primal beast pulverize duration
+7744,special bonus unique primal beast uproar armor
+7804,seasonal throw snowball
+7806,seasonal summon snowman
+7807,seasonal decorate tree
+7809,seasonal festive firework
+7810,frostivus2018 throw snowball
+7812,frostivus2018 summon snowman
+7813,frostivus2018 decorate tree
+7814,seasonal summon penguin
+7815,frostivus2018 festive firework
+7816,consumable hidden
+7817,seasonal summon cny balloon
+7818,seasonal summon dragon
+7819,seasonal summon cny tree
+7820,seasonal firecrackers
+7821,seasonal summon ti9 balloon
+7822,seasonal ti9 banner
+7823,seasonal ti9 instruments
+7824,seasonal ti9 shovel
+7825,seasonal ti9 monkey
+7826,courier queue pickup from stash
+7827,courier dequeue pickup from stash
+7828,ad special bonus gold lvl10 l
+7829,ad special bonus gold lvl15 l
+7830,ad special bonus gold lvl20 l
+7831,ad special bonus gold lvl25 l
+7832,ad special bonus gold lvl10 r
+7833,ad special bonus gold lvl15 r
+7834,ad special bonus gold lvl20 r
+7835,ad special bonus gold lvl25 r
+7836,invoker cold snap ad
+7837,invoker ghost walk ad
+7838,invoker tornado ad
+7839,invoker emp ad
+7840,invoker alacrity ad
+7841,invoker sun strike ad
+7842,invoker forge spirit ad
+7843,invoker chaos meteor ad
+7844,invoker ice wall ad
+7845,invoker deafening blast ad
+7850,tiny tree channel
+7851,spectre haunt single
+7852,grimstroke dark portrait
+7853,templar assassin trap teleport
+7854,arc warden scepter
+7855,clinkz scepter
+7859,special bonus unique dark willow 3
+7861,special bonus unique terrorblade 4
+7864,slardar scepter
+7865,troll warlord scepter
+7869,special bonus unique chen 5
+7871,special bonus unique slardar 4
+7873,special bonus mp regen 250
+7878,special bonus unique clinkz 4
+7888,special bonus unique windranger 7
+7889,special bonus unique windranger 8
+7890,special bonus unique windranger 9
+7891,special bonus unique tusk 6
+7892,special bonus unique sniper 6
+7893,special bonus attack speed 175
+7894,special bonus unique chen 6
+7895,special bonus unique clinkz 5
+7896,special bonus lifesteal 40
+7897,special bonus unique wisp 7
+7898,special bonus unique tinker 4
+7899,special bonus cleave 35
+7902,dawnbreaker fire wreath
+7903,dawnbreaker converge
+7906,dawnbreaker solar guardian
+7911,special bonus unique windranger 10
+7914,dawnbreaker celestial hammer
+7918,dawnbreaker luminosity
+7930,special bonus unique dawnbreaker solar guardian radius
+7931,special bonus unique dawnbreaker fire wreath cooldown
+7932,special bonus unique dawnbreaker converge slow
+7933,special bonus unique dawnbreaker celestial hammer damage
+7934,special bonus unique dawnbreaker celestial hammer cast range
+7935,special bonus unique dawnbreaker fire wreath ministun
+7936,special bonus unique storm spirit 6
+7937,special bonus unique dawnbreaker luminosity crit
+7938,special bonus unique dawnbreaker solar guardian cooldown
+7939,special bonus unique dawnbreaker fire wreath charges
+7940,special bonus unique dawnbreaker luminosity attack count
+7941,special bonus unique dawnbreaker fire wreath swipe
+7942,special bonus unique dawnbreaker celestial hammer slow
+7968,high five
+7977,special bonus unique tidehunter 6
+7978,special bonus unique tidehunter 7
+7979,special bonus unique tidehunter 8
+8000,grimstroke dark artistry
+8001,special bonus unique grimstroke 1
+8002,special bonus unique grimstroke 2
+8003,special bonus unique grimstroke 3
+8004,special bonus unique grimstroke 4
+8005,special bonus gold income 210
+8006,grimstroke ink creature
+8007,grimstroke spirit walk
+8010,special bonus unique drow ranger 5
+8011,special bonus lifesteal 35
+8017,special bonus attack damage 160
+8018,special bonus mana reduction 9
+8019,seasonal ti10 portal
+8020,seasonal ti10 disco ball
+8021,seasonal ti10 disco ball channel
+8022,seasonal ti10 soccer ball
+8023,seasonal ti10 hot potato
+8024,seasonal ti10 hot potato throw existing potato
+8025,seasonal diretide2020 high five
+8026,special bonus unique phantom assassin 8
+8027,pangolier rollup
+8028,lich ice spire
+8029,pangolier rollup stop
+8030,faceless void time walk reverse
+8032,crystal maiden freezing field stop
+8033,special bonus unique broodmother 5
+8034,plus high five
+8035,plus guild banner
+8036,seasonal 10th anniversary party hat
+8037,dawnbreaker land
+8038,special bonus unique zeus 5
+8039,special bonus unique tinker 7
+8040,special bonus unique spectre 6
+8041,special bonus unique earthshaker 5
+8106,hoodwink sharpshooter
+8107,hoodwink decoy
+8158,hoodwink bushwhack
+8159,hoodwink sharpshooter release
+8192,marci grapple
+8198,marci unleash
+8203,necronomicon archer purge
+8234,marci sidekick
+8235,marci companion run
+8236,special bonus unique marci lunge ally absorb
+8237,special bonus unique marci lunge damage
+8238,special bonus unique marci grapple stun duration
+8239,special bonus unique marci sidekick magic immune
+8240,special bonus unique marci unleash flurry crits
+8241,special bonus unique marci unleash silence
+8242,special bonus unique marci sidekick lifesteal
+8243,special bonus unique marci lunge range
+8244,special bonus unique marci unleash pulse lunge refresh
+8245,special bonus unique marci lunge cooldown
+8246,special bonus unique marci grapple damage
+8247,special bonus unique silencer arcane curse undispellable
+8249,roshan teleport
+8251,special bonus unique abaddon immolation
+8252,special bonus unique clockwerk flare damage
+8253,undying tombstone unit grab
+8254,special bonus unique spirit breaker shield
+8255,special bonus unique dazzle shadow wave cast range
+8290,special bonus unique clockwerk hookshot damage
+8340,dark willow terrorize
+8347,special bonus unique marci dispose range
+8351,special bonus hp regen 35
+8429,hoodwink acorn shot
+8432,special bonus unique enchantress 6
+8482,special bonus unique timbersaw 5
+8873,twin gate portal warp
+9060,special bonus unique pangolier 3
+9061,special bonus unique pangolier 4
+9062,special bonus unique pangolier 5
+9063,special bonus unique pangolier
+9135,special bonus unique pangolier 6
+9140,muerta grave tracker
+9142,muerta grave visitation
+9268,special bonus unique meepo 7
+9269,special bonus unique meepo 8
+9391,special bonus unique pangolier 7
+9401,special bonus unique axe 8
+9418,special bonus unique leshrac 7
+9501,hoodwink scurry
+9505,special bonus unique hoodwink camouflage
+9506,special bonus unique hoodwink sharpshooter speed
+9507,special bonus unique hoodwink sharpshooter pure damage
+9509,special bonus unique hoodwink acorn shot charges
+9510,special bonus unique hoodwink bushwhack cooldown
+9511,special bonus unique hoodwink bushwhack damage
+9512,special bonus unique hoodwink scurry duration
+9513,special bonus unique hoodwink acorn shot bounces
+9627,hoodwink go nutss boomerang
+9709,seasonal ti11 balloon
+9710,seasonal ti11 bubble gun
+9711,seasonal ti11 duel
+9712,seasonal ti11 conga line
+9990,roshan halloween candy
+9991,roshan halloween angry
+9993,roshan halloween wave of force
+9994,roshan halloween greater bash
+9995,roshan halloween toss
+9997,roshan halloween shell
+9998,roshan halloween apocalypse
+9999,roshan halloween burn

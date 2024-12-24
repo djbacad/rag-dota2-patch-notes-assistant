@@ -1,0 +1,508 @@
+id,name
+0,ability base
+1,blink
+2,blades of attack
+3,broadsword
+4,chainmail
+5,claymore
+6,helm of iron will
+7,javelin
+8,mithril hammer
+9,platemail
+10,quarterstaff
+11,quelling blade
+12,ring of protection
+13,gauntlets
+14,slippers
+15,mantle
+16,branches
+17,belt of strength
+18,boots of elves
+19,robe
+20,circlet
+21,ogre axe
+22,blade of alacrity
+23,staff of wizardry
+24,ultimate orb
+25,gloves
+26,lifesteal
+27,ring of regen
+28,sobi mask
+29,boots
+30,gem
+31,cloak
+32,talisman of evasion
+33,cheese
+34,magic stick
+35,recipe magic wand
+36,magic wand
+37,ghost
+38,clarity
+39,flask
+40,dust
+41,bottle
+42,ward observer
+43,ward sentry
+44,tango
+45,courier
+46,tpscroll
+47,recipe travel boots
+48,travel boots
+49,recipe phase boots
+50,phase boots
+51,demon edge
+52,eagle
+53,reaver
+54,relic
+55,hyperstone
+56,ring of health
+57,void stone
+58,mystic staff
+59,energy booster
+60,point booster
+61,vitality booster
+62,recipe power treads
+63,power treads
+64,recipe hand of midas
+65,hand of midas
+66,recipe oblivion staff
+67,oblivion staff
+68,recipe pers
+69,pers
+70,recipe poor mans shield
+71,poor mans shield
+72,recipe bracer
+73,bracer
+74,recipe wraith band
+75,wraith band
+76,recipe null talisman
+77,null talisman
+78,recipe mekansm
+79,mekansm
+80,recipe vladmir
+81,vladmir
+85,recipe buckler
+86,buckler
+87,recipe ring of basilius
+88,ring of basilius
+89,recipe pipe
+90,pipe
+91,recipe urn of shadows
+92,urn of shadows
+93,recipe headdress
+94,headdress
+95,recipe sheepstick
+96,sheepstick
+97,recipe orchid
+98,orchid
+99,recipe cyclone
+100,cyclone
+101,recipe force staff
+102,force staff
+103,recipe dagon
+104,dagon
+105,recipe necronomicon
+106,necronomicon
+107,recipe ultimate scepter
+108,ultimate scepter
+109,recipe refresher
+110,refresher
+111,recipe assault
+112,assault
+113,recipe heart
+114,heart
+115,recipe black king bar
+116,black king bar
+117,aegis
+118,recipe shivas guard
+119,shivas guard
+120,recipe bloodstone
+121,bloodstone
+122,recipe sphere
+123,sphere
+124,recipe vanguard
+125,vanguard
+126,recipe blade mail
+127,blade mail
+128,recipe soul booster
+129,soul booster
+130,recipe hood of defiance
+131,hood of defiance
+132,recipe rapier
+133,rapier
+134,recipe monkey king bar
+135,monkey king bar
+136,recipe radiance
+137,radiance
+138,recipe butterfly
+139,butterfly
+140,recipe greater crit
+141,greater crit
+142,recipe basher
+143,basher
+144,recipe bfury
+145,bfury
+146,recipe manta
+147,manta
+148,recipe lesser crit
+149,lesser crit
+150,recipe armlet
+151,armlet
+152,invis sword
+153,recipe sange and yasha
+154,sange and yasha
+155,recipe satanic
+156,satanic
+157,recipe mjollnir
+158,mjollnir
+159,recipe skadi
+160,skadi
+161,recipe sange
+162,sange
+163,recipe helm of the dominator
+164,helm of the dominator
+165,recipe maelstrom
+166,maelstrom
+167,recipe desolator
+168,desolator
+169,recipe yasha
+170,yasha
+171,recipe mask of madness
+172,mask of madness
+173,recipe diffusal blade
+174,diffusal blade
+175,recipe ethereal blade
+176,ethereal blade
+177,recipe soul ring
+178,soul ring
+179,recipe arcane boots
+180,arcane boots
+181,orb of venom
+182,stout shield
+183,recipe invis sword
+184,recipe ancient janggo
+185,ancient janggo
+186,recipe medallion of courage
+187,medallion of courage
+188,smoke of deceit
+189,recipe veil of discord
+190,veil of discord
+191,recipe necronomicon 2
+192,recipe necronomicon 3
+193,necronomicon 2
+194,necronomicon 3
+196,diffusal blade 2
+197,recipe dagon 2
+198,recipe dagon 3
+199,recipe dagon 4
+200,recipe dagon 5
+201,dagon 2
+202,dagon 3
+203,dagon 4
+204,dagon 5
+205,recipe rod of atos
+206,rod of atos
+207,recipe abyssal blade
+208,abyssal blade
+209,recipe heavens halberd
+210,heavens halberd
+211,recipe ring of aquila
+212,ring of aquila
+213,recipe tranquil boots
+214,tranquil boots
+215,shadow amulet
+216,enchanted mango
+217,recipe ward dispenser
+218,ward dispenser
+219,recipe travel boots 2
+220,travel boots 2
+221,recipe lotus orb
+222,recipe meteor hammer
+223,meteor hammer
+224,recipe nullifier
+225,nullifier
+226,lotus orb
+227,recipe solar crest
+228,recipe octarine core
+229,solar crest
+230,recipe guardian greaves
+231,guardian greaves
+232,aether lens
+233,recipe aether lens
+234,recipe dragon lance
+235,octarine core
+236,dragon lance
+237,faerie fire
+238,recipe iron talon
+239,iron talon
+240,blight stone
+241,tango single
+242,crimson guard
+243,recipe crimson guard
+244,wind lace
+245,recipe bloodthorn
+246,recipe moon shard
+247,moon shard
+248,recipe silver edge
+249,silver edge
+250,bloodthorn
+251,recipe echo sabre
+252,echo sabre
+253,recipe glimmer cape
+254,glimmer cape
+255,recipe aeon disk
+256,aeon disk
+257,tome of knowledge
+258,recipe kaya
+259,kaya
+260,refresher shard
+261,crown
+262,recipe hurricane pike
+263,hurricane pike
+265,infused raindrop
+266,recipe spirit vessel
+267,spirit vessel
+268,recipe holy locket
+269,holy locket
+270,recipe ultimate scepter 2
+271,ultimate scepter 2
+272,recipe kaya and sange
+273,kaya and sange
+274,recipe yasha and kaya
+275,recipe trident
+276,combo breaker
+277,yasha and kaya
+279,ring of tarrasque
+286,flying courier
+287,keen optic
+288,grove bow
+289,quickening charm
+290,philosophers stone
+291,force boots
+292,desolator 2
+293,phoenix ash
+294,seer stone
+295,greater mango
+297,vampire fangs
+298,craggy coat
+299,greater faerie fire
+300,timeless relic
+301,mirror shield
+302,elixer
+303,recipe ironwood tree
+304,ironwood tree
+305,royal jelly
+306,pupils gift
+307,tome of aghanim
+308,repair kit
+309,mind breaker
+310,third eye
+311,spell prism
+312,horizon
+313,fusion rune
+317,recipe fallen sky
+325,princes knife
+326,spider legs
+327,helm of the undying
+328,mango tree
+330,witless shako
+331,vambrace
+334,imp claw
+335,flicker
+336,spy gadget
+349,arcane ring
+354,ocean heart
+355,broom handle
+356,trusty shovel
+357,nether shawl
+358,dragon scale
+359,essence ring
+360,clumsy net
+361,enchanted quiver
+362,ninja gear
+363,illusionsts cape
+364,havoc hammer
+365,panic button
+366,apex
+367,ballista
+368,woodland striders
+369,trident
+370,demonicon
+371,fallen sky
+372,pirate hat
+373,dimensional doorway
+374,ex machina
+375,faded broach
+376,paladin sword
+377,minotaur horn
+378,orb of destruction
+379,the leveller
+381,titan sliver
+473,voodoo mask
+485,blitz knuckles
+533,recipe witch blade
+534,witch blade
+565,chipped vest
+566,wizard glass
+569,orb of corrosion
+570,gloves of travel
+571,trickster cloak
+573,elven tunic
+574,cloak of flames
+575,venom gland
+576,gladiator helm
+577,possessed mask
+578,ancient perseverance
+582,oakheart
+585,stormcrafter
+588,overflowing elixir
+589,mysterious hat
+593,fluffy hat
+596,falcon blade
+597,recipe mage slayer
+598,mage slayer
+599,recipe falcon blade
+600,overwhelming blink
+603,swift blink
+604,arcane blink
+606,recipe arcane blink
+607,recipe swift blink
+608,recipe overwhelming blink
+609,aghanims shard
+610,wind waker
+612,recipe wind waker
+633,recipe helm of the overlord
+635,helm of the overlord
+637,star mace
+638,penta edged sword
+640,recipe orb of corrosion
+653,recipe grandmasters glaive
+655,grandmasters glaive
+674,warhammer
+675,psychic headband
+676,ceremonial robe
+677,book of shadows
+678,giants ring
+679,vengeances shadow
+680,bullwhip
+686,quicksilver amulet
+691,recipe eternal shroud
+692,eternal shroud
+725,aghanims shard roshan
+727,ultimate scepter roshan
+731,satchel
+824,assassins dagger
+825,ascetic cap
+826,sample picker
+827,icarus wings
+828,misericorde
+829,force field
+834,black powder bag
+835,paintball
+836,light robes
+837,heavy blade
+838,unstable wand
+839,fortitude ring
+840,pogo stick
+849,mechanical arm
+907,recipe wraith pact
+908,wraith pact
+910,recipe revenants brooch
+911,revenants brooch
+930,recipe boots of bearing
+931,boots of bearing
+938,slime vial
+939,harpoon
+940,wand of the brine
+945,seeds of serenity
+946,lance of pursuit
+947,occult bracelet
+948,tome of omniscience
+949,ogre seal totem
+950,defiant shell
+968,arcane scout
+969,barricade
+990,eye of the vizier
+998,manacles of power
+1000,bottomless chalice
+1017,wand of sanctitude
+1021,river painter
+1022,river painter2
+1023,river painter3
+1024,river painter4
+1025,river painter5
+1026,river painter6
+1027,river painter7
+1028,mutation tombstone
+1029,super blink
+1030,pocket tower
+1032,pocket roshan
+1076,specialists array
+1077,dagger of ristul
+1090,muertas gun
+1091,samurai tabi
+1092,recipe hermes sandals
+1093,hermes sandals
+1094,recipe lunar crest
+1095,lunar crest
+1096,recipe disperser
+1097,disperser
+1098,recipe samurai tabi
+1099,recipe witches switch
+1100,witches switch
+1101,recipe harpoon
+1106,recipe phylactery
+1107,phylactery
+1122,diadem
+1123,blood grenade
+1124,spark of courage
+1125,cornucopia
+1127,recipe pavise
+1128,pavise
+1154,royale with cheese
+1156,ancient guardian
+1157,safety bubble
+1158,whisper of the dread
+1159,nemesis curse
+1160,avianas feather
+1161,unwavering condition
+1162,halo
+1163,recipe aetherial halo
+1164,aetherial halo
+1167,light collector
+1168,rattlecage
+1440,black grimoire
+1441,grisgris
+1466,gungir
+1487,claddish spyglass
+1565,recipe gungir
+1800,recipe caster rapier
+1801,caster rapier
+1802,tiara of selemene
+1803,doubloon
+1804,roshans banner
+1805,recipe devastator
+1806,devastator
+1807,recipe angels demise
+1808,angels demise
+2091,tier1 token
+2092,tier2 token
+2093,tier3 token
+2094,tier4 token
+2095,tier5 token
+2096,vindicators axe
+2097,duelist gloves
+2098,horizons equilibrium
+2099,blighted spirit
+2190,dandelion amulet
+2191,turtle shell
+2192,martyrs plate
+2193,gossamer cape
+4204,famango
+4205,great famango
+4206,greater famango
+4207,recipe great famango
+4208,recipe greater famango
+4300,ofrenda
+4301,ofrenda shovel
+4302,ofrenda pledge

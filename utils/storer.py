@@ -4,33 +4,11 @@ import requests
 
 class ConvertPatchNotesToDocuments:
 
-  def __init__(self, patch_note):
+  def __init__(self, patch_note, dict_heroes_abilities_mapper, dict_heroes_mapper, dict_items_mapper):
     self.patch_note=patch_note
-
-  # For generating heroes mapper
-  def get_heroes_mapper(self):
-    url_heroes = 'https://api.opendota.com/api/heroes'
-    heroes_response = requests.get(url_heroes)
-    json_heroes_map = heroes_response.json()
-    df_heroes = pd.DataFrame(json_heroes_map)
-    dict_heroes_map = df_heroes.set_index(df_heroes['id'].astype(str))['localized_name'].to_dict()
-    return dict_heroes_map
-
-  # For generating heroes abilities mapper
-  def get_heroes_abilities_mapper(self):
-    url_abilities = 'https://api.opendota.com/api/constants/ability_ids'
-    abilities_response = requests.get(url_abilities)
-    json_abilities_map = abilities_response.json()
-    dict_abilities_map = {key: value.replace('_', ' ') for key, value in json_abilities_map.items()}
-    return dict_abilities_map
-  
-  # For generating items mapper
-  def get_items_mapper(self):
-    url_items = 'https://api.opendota.com/api/constants/item_ids'
-    items_response = requests.get(url_items)
-    json_items_map = items_response.json()
-    dict_items_map = {key: value.replace('_', ' ') for key, value in json_items_map.items()}
-    return dict_items_map
+    self.dict_heroes_abilities_mapper = dict_heroes_abilities_mapper
+    self.dict_heroes_mapper = dict_heroes_mapper
+    self.dict_items_mapper = dict_items_mapper
 
   # Common
   # For replacing id vars with actual ability/hero/item names
@@ -60,14 +38,6 @@ class ConvertPatchNotesToDocuments:
     # Initialize empty list for document objects storage
     docs_all = []
 
-    # Define the mappers
-    # Abilities mapper
-    dict_abilities_map = self.get_heroes_abilities_mapper()
-    # Heroes mapper
-    dict_heroes_map = self.get_heroes_mapper()
-    # Items mapper
-    dict_items_map = self.get_items_mapper()
-    
     # (1) Heroes' abilities
     def extract_hero_abilities_metadata(record: dict, metadata: dict) -> dict:
       metadata["hero_id"] = record.get("hero_id")
@@ -95,7 +65,7 @@ class ConvertPatchNotesToDocuments:
       docs_heroes_abilities = (
         self.replace_id_with_name(
           documents=docs_heroes_abilities, 
-          dict_map=dict_heroes_map,
+          dict_map=self.dict_heroes_mapper,
           field="hero_id",
           field_name="Hero")
       )
@@ -103,7 +73,7 @@ class ConvertPatchNotesToDocuments:
       docs_heroes_abilities = (
         self.replace_id_with_name(
           documents=docs_heroes_abilities, 
-          dict_map=dict_abilities_map,
+          dict_map=self.dict_heroes_abilities_mapper,
           field="ability_id",
           field_name="Ability")
       )
@@ -134,7 +104,7 @@ class ConvertPatchNotesToDocuments:
       docs_heroes_talents = (
         self.replace_id_with_name(
           documents=docs_heroes_talents, 
-          dict_map=dict_heroes_map,
+          dict_map=self.dict_heroes_mapper,
           field="hero_id",
           field_name="Hero")
       )
@@ -165,7 +135,7 @@ class ConvertPatchNotesToDocuments:
       docs_heroes_base = (
         self.replace_id_with_name(
           documents=docs_heroes_base, 
-          dict_map=dict_heroes_map,
+          dict_map=self.dict_heroes_mapper,
           field="hero_id",
           field_name="Hero")
       )
@@ -197,7 +167,7 @@ class ConvertPatchNotesToDocuments:
       docs_items = (
         self.replace_id_with_name(
           documents=docs_items, 
-          dict_map=dict_items_map,
+          dict_map=self.dict_items_mapper,
           field="item_id",
           field_name="Item")
       )
