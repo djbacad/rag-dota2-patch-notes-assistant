@@ -45,7 +45,7 @@ class ConvertPatchNotesToDocuments:
       if abilities:
         metadata["ability_id"] = abilities[0].get("ability_id")
       else:
-        metadata["ability_id"] = None
+        metadata["ability_id"] = "N/A"
       metadata["category"] = "heroes-abilities"
       return metadata
 
