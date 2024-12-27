@@ -1,5 +1,3 @@
-# Original script to modify the patch notes and get them ready for LangChain's JSONLoader
-
 import os
 import json
 import numpy as np
@@ -8,21 +6,42 @@ folder_path = '../patchnotes'
 list_patch_notes = os.listdir(folder_path)
 
 def add_default_hero_values(data):
-  for hero in data.get("heroes", []):
-    # Add default talent_notes if not present
-    if "talent_notes" not in hero:
-      hero["talent_notes"] = ["No updates/changes"]
-    if "hero_notes" not in hero:
-      hero["hero_notes"] = ["No updates/changes"]
-    if "abilities" not in hero:
-      hero["abilities"] = [{'ability_id': np.nan}, {"ability_notes":["No updates/changes"]}]
+    for hero in data.get("heroes", []):
+        # Add default talent_notes if not present
+        if "talent_notes" not in hero:
+            hero["talent_notes"] = ["No updates/changes"]
+        if "hero_notes" not in hero:
+            hero["hero_notes"] = ["No updates/changes"]
+        if "abilities" not in hero:
+            hero["abilities"] = []
+
+        # Handle subsections for facets
+        if "subsections" in hero:
+            for subsection in hero["subsections"]:
+                facet_title = subsection.get("title", "")
+
+                # Handle abilities if present
+                for ability in subsection.get("abilities", []):
+                    hero["abilities"].append({
+                        "ability_id": ability.get("ability_id", np.nan),
+                        "ability_notes": [
+                            {**note, "facet": facet_title} for note in ability.get("ability_notes", [])
+                        ]
+                    })
+
+                # Handle general_notes if present
+                for note in subsection.get("general_notes", []):
+                    hero["hero_notes"].append({**note, "facet": facet_title})
+
+            # Remove subsections after processing
+            del hero["subsections"]
 
 for patch_note in list_patch_notes:
-  # Load original
-  with open(f"../patchnotes/{patch_note}", 'r') as file:
-    json_data = json.load(file)
-  add_default_hero_values(json_data)
-  # Save the modified
-  with open(f"../patchnotes_modified/{patch_note}", 'w') as f:
-    json.dump(json_data, f)
-    print(f"Modified {patch_note}")
+    # Load original
+    with open(f"../patchnotes/{patch_note}", 'r') as file:
+        json_data = json.load(file)
+    add_default_hero_values(json_data)
+    # Save the modified
+    with open(f"../patchnotes_modified/{patch_note}", 'w') as f:
+        json.dump(json_data, f)
+        print(f"Modified {patch_note}")

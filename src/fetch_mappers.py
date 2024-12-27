@@ -45,7 +45,6 @@ def get_items_mapper():
     }
     return dict_items_map
 
-
 def save_mapper_as_csv(mapping: dict, filename: str):
     """
     Save the given dict `mapping` (id -> name) to a CSV file in the 'data' folder.
