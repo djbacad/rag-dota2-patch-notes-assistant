@@ -1,23 +1,23 @@
 import re
 import csv
 
-class RetrieveFilteredDocuments:
+class FilterRetrievedDocuments:
 
-  def load_set_from_csv(self, csv_path, key="name"):
-      """
-      Loads a set of names from a CSV file based on a specific column key.
-      """
-      data_set = set()
-      with open(csv_path, "r", encoding="utf-8") as f:
-          reader = csv.DictReader(f)
-          for row in reader:
-              data_set.add(row[key].strip().lower())
-      return data_set
+  def __init__(self, query):    
+    self.query=query
 
+  def load_set_from_csv(self,csv_path, key="name"):
+    """
+    Loads a set of names from a CSV file based on a specific column key.
+    """
+    data_set = set()
+    with open(csv_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            data_set.add(row[key].strip().lower())
+    return data_set
 
-  # Define regex patterns
-  
-  def dynamic_filter(self, query: str) -> dict:
+  def dynamic_filter(self) -> dict:
       """
       Dynamically constructs metadata filters based on the query.
       Args:
@@ -25,13 +25,13 @@ class RetrieveFilteredDocuments:
       Returns:
           dict: The metadata filter parameters.
       """
-      query_lower = query.lower()
+      query_lower = self.query.lower()
       filter_dict = {}
 
       patch_pattern = re.compile(r"7\.\d+[a-z]?")  # Matches patch versions like 7.37c, 7.35c, etc
-      heroes_set = self.load_set_from_csv("../data/mappers/heroes_mapper.csv")
-      items_set = self.load_set_from_csv("../data/mappers/items_mapper.csv")
-      abilities_set = self.load_set_from_csv("../data/mappers/heroes_abilities_mapper.csv")
+      heroes_set = self.load_set_from_csv("./data/mappers/heroes_mapper.csv")
+      items_set = self.load_set_from_csv("./data/mappers/items_mapper.csv")
+      abilities_set = self.load_set_from_csv("./data/mappers/heroes_abilities_mapper.csv")
 
       # 1. Extract patch version
       patch_match = patch_pattern.findall(query_lower)
@@ -73,17 +73,16 @@ class RetrieveFilteredDocuments:
 
       return filter_dict
 
-  def get_filtered_docs(self, query: str, retrieved_docs: list):
+  def get_filtered_docs(self, retrieved_docs: list):
       """
       Filters the retrieved documents based on the query.
       Args:
-          query (str): The user's query.
           retrieved_docs (list): The list of retrieved documents.
       Returns:
           list: The filtered documents.
       """
       # Generate filters dynamically based on the query
-      filter_criteria = self.dynamic_filter(query)
+      filter_criteria = self.dynamic_filter()
 
       def matches_criteria(doc):
           for key, values in filter_criteria.items():
