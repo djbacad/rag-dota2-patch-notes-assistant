@@ -1,38 +1,16 @@
-
-# from src.utils.chain_builder import ChainBuilder
-# from src.utils.strainer import FilterRetrievedDocuments
-# from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-# from langchain_community.vectorstores import FAISS
-
-# # Load chain objects:
-# llm_obj =  ChatOpenAI(model="gpt-4o-mini", temperature=0)
-# query = "What are the changes for sand king in 7.37d if there's any?"
-# strainer_obj =  FilterRetrievedDocuments(query)
-# chat_history= [] 
-# vector_store = FAISS.load_local("./vectorstore_faiss", embeddings=OpenAIEmbeddings(), allow_dangerous_deserialization=True)
-
-# # Initialize Chain
-# chain_builder = ChainBuilder(llm_obj=llm_obj, strainer_obj=strainer_obj, query=query, chat_history=chat_history, vector_store=vector_store)
-
-# # Build RAG chain
-# rag_chain, retrieved_docs = chain_builder.build_rag_chain()
-# # Print retrieved documents before invoking the chain
-# print("Retrieved Documents (Final Check):")
-# for doc in retrieved_docs:
-#     print(f"- {doc.page_content} [Metadata: {doc.metadata}]")
-# # Pass query to the chain
-# result = rag_chain.invoke({"input": query, "chat_history": chat_history})
-# print("\nAnswer:", result["answer"])
-
-
 import gradio as gr
-from src.utils.chain_builder import ChainBuilder
-from src.utils.strainer import FilterRetrievedDocuments
+import tiktoken
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
+from langchain_community.chat_message_histories import SQLChatMessageHistory
 
-# --- Load Required Objects ---
-# Initialize LLM and Vector Store
+from src.utils.chain_builder import ChainBuilder
+from src.utils.strainer import FilterRetrievedDocuments
+
+
+# --- Initialize Components ---
+
+# LLM and Vector Store
 llm_obj = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 vector_store = FAISS.load_local(
     "./vectorstore_faiss",
@@ -40,40 +18,92 @@ vector_store = FAISS.load_local(
     allow_dangerous_deserialization=True
 )
 
-# Chat history - Empty initially
-chat_history = []
+# Persistent Chat History
+chat_message_history = SQLChatMessageHistory(
+    session_id="single-user", connection_string="sqlite:///chat_history.db"
+)
 
 
-# --- Define the Gradio Function ---
-def process_query(user_query):
+# --- Context Truncator ---
+
+MAX_TOKENS = 120000  # Leave buffer under OpenAI's 128k limit
+def truncate_context(context, max_tokens=MAX_TOKENS):
     """
-    Process user query and return the answer.
+    Truncates the context to fit within the max token limit.
+    """
+    # Initialize tiktoken tokenizer for GPT-4
+    tokenizer = tiktoken.encoding_for_model("gpt-4")
+
+    # Tokenize the context
+    tokens = tokenizer.encode(context)
+
+    # Truncate older parts if limit exceeds
+    if len(tokens) > max_tokens:
+        tokens = tokens[-max_tokens:]
+
+    # Decode back to string
+    truncated_context = tokenizer.decode(tokens)
+    return truncated_context
+
+
+# --- RAG Chain Builder ---
+
+def build_rag_chain(user_query, chat_history):
+    """
+    Dynamically builds a RAG chain based on query and chat history.
+    """
+    # Apply filters
+    strainer_obj = FilterRetrievedDocuments(user_query)
+
+    # Build RAG chain
+    chain_builder = ChainBuilder(
+        llm_obj=llm_obj,
+        strainer_obj=strainer_obj,
+        query=user_query,
+        chat_history=chat_history,
+        vector_store=vector_store
+    )
+
+    # Build the RAG chain and retrieve filtered documents
+    rag_chain, retrieved_filtered_docs = chain_builder.build_rag_chain()
+
+    # Prepare explicit context
+    context = "\n\n".join([doc.page_content for doc in retrieved_filtered_docs])
+
+    # Truncate context to avoid exceeding token limits
+    truncated_context = truncate_context(context)
+
+    return rag_chain, truncated_context
+
+
+
+# --- Chat Function ---
+
+def chat_with_rag(user_query, chat_history):
+    """
+    Handles user query and interacts with the RAG pipeline.
     """
     try:
-        # 1. Apply filters to retrieved documents
-        strainer_obj = FilterRetrievedDocuments(user_query)
+        # Append user's query to the persistent chat history
+        chat_message_history.add_user_message(user_query)
 
-        # 2. Build RAG chain
-        chain_builder = ChainBuilder(
-            llm_obj=llm_obj,
-            strainer_obj=strainer_obj,
-            query=user_query,
-            chat_history=chat_history,
-            vector_store=vector_store
-        )
-        rag_chain, retrieved_docs = chain_builder.build_rag_chain()
+        # Retrieve previous chat history
+        chat_history = chat_message_history.messages
 
-        # 3. Print retrieved documents (optional - useful for debugging)
-        print("Retrieved Documents (Final Check):")
-        for doc in retrieved_docs:
-            print(f"- {doc.page_content} [Metadata: {doc.metadata}]")
+        # Build RAG chain
+        rag_chain, context = build_rag_chain(user_query, chat_history)
 
-        # 4. Get the final answer
-        result = rag_chain.invoke({"input": user_query, "chat_history": chat_history})
+        #print(f"Context: {context}")
+        # Generate response
+        result = rag_chain.invoke({
+            "input": user_query,
+            "chat_history": chat_history,
+            #"context": context 
+        })
         answer = result["answer"]
 
-        # 5. Append the interaction to chat history
-        chat_history.append({"user": user_query, "bot": answer})
+        # Append AI's response to the persistent chat history
+        chat_message_history.add_ai_message(answer)
 
         return answer
 
@@ -81,14 +111,13 @@ def process_query(user_query):
         return f"Error: {str(e)}"
 
 
-# --- Gradio Interface ---
-iface = gr.Interface(
-    fn=process_query,                     # The function to process user input
-    inputs=gr.Textbox(placeholder="Ask about Dota 2 patch notes!"),  # User input
-    outputs="text",                        # Output will be plain text
-    title="Dota 2 Patch Notes Assistant",  # Title of the app
-    description="Ask me about the latest Dota 2 patch notes, hero updates, and changes!"  # Description
+# --- Gradio Chat UI ---
+
+chat_interface = gr.ChatInterface(
+    fn=chat_with_rag,  # Function to handle the chat
+    title="Dota 2 Patch Notes Assistant",
+    description="Ask me about the latest Dota 2 patch notes, hero updates, and changes!",
 )
 
-# Launch the Gradio app
-iface.launch(share=True)  # Use 'share=True' to get a public URL
+# Launch Gradio app
+chat_interface.launch(share=True)

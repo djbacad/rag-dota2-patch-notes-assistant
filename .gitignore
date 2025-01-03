@@ -1,1 +1,3 @@
 myenv/
+chat_history.db
+*.ipynb
