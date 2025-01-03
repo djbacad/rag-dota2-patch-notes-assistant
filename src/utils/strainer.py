@@ -1,10 +1,12 @@
 import re
 import csv
+import os
 
 class FilterRetrievedDocuments:
 
-  def __init__(self, query):    
-    self.query=query
+  def __init__(self, query, previous_query=None):    
+    self.query = query
+    self.previous_query = previous_query  # Store previous query for context inference
 
   def load_set_from_csv(self,csv_path, key="name"):
     """
@@ -16,32 +18,61 @@ class FilterRetrievedDocuments:
         for row in reader:
             data_set.add(row[key].strip().lower())
     return data_set
+  
+  def get_latest_patch_version(self, folder_path):
+    """
+    Scans the folder for patch files and extracts the latest patch version.
+    """
+    # Regex to match valid patch versions
+    patch_pattern = re.compile(r"7\.\d+[a-z]?")
+
+    # List all files and extract versions
+    patch_versions = []
+    for filename in os.listdir(folder_path):
+        if filename.endswith(".json"):  # Only process JSON files
+            match = patch_pattern.match(filename)
+            if match:
+                patch_versions.append(match.group())
+
+    # Sort the versions in ascending order
+    patch_versions.sort(key=lambda x: tuple(int(part) if part.isdigit() else part for part in re.split('(\d+)', x)))
+    return patch_versions[-1] if patch_versions else None
 
   def dynamic_filter(self) -> dict:
       """
-      Dynamically constructs metadata filters based on the query.
+      Dynamically constructs metadata filters based on the query and previous context.
       Args:
           query (str): The user's query.
+          previous_query (str, optional): The previous query to infer missing details.
       Returns:
           dict: The metadata filter parameters.
       """
       query_lower = self.query.lower()
+      prev_query_lower = self.previous_query.lower() if self.previous_query else ""
       filter_dict = {}
 
-      patch_pattern = re.compile(r"7\.\d+[a-z]?")  # Matches patch versions like 7.37c, 7.35c, etc
+      # Load CSV data sets
+      patch_pattern = re.compile(r"7\.\d+[a-z]?")
       heroes_set = self.load_set_from_csv("./data/mappers/heroes_mapper.csv")
       items_set = self.load_set_from_csv("./data/mappers/items_mapper.csv")
       abilities_set = self.load_set_from_csv("./data/mappers/heroes_abilities_mapper.csv")
 
-      # 1. Extract patch version
-      patch_match = patch_pattern.findall(query_lower)
-      if patch_match:
-          filter_dict["patch_version"] = patch_match[0]
+      # 1. Extract patch version or detect 'latest'
+      if "latest" in query_lower:
+          latest_patch = self.get_latest_patch_version("./patchnotes_modified")
+          print(latest_patch)
+          if latest_patch:
+              filter_dict["patch_version"] = latest_patch
+      else:
+          patch_match = patch_pattern.findall(query_lower) or patch_pattern.findall(prev_query_lower)
+          if patch_match:
+              filter_dict["patch_version"] = patch_match[0]
 
       # 2. Determine category and relevant IDs
-      if any(hero in query_lower for hero in heroes_set):
-          # If the query is about a hero
-          hero_id = next(hero for hero in heroes_set if hero in query_lower)
+      hero_id = next((hero for hero in heroes_set if hero in query_lower), None)
+      if not hero_id:
+          hero_id = next((hero for hero in heroes_set if hero in prev_query_lower), None)
+      if hero_id:
           filter_dict["hero_id"] = hero_id
 
           # Check for specific keywords to filter categories
@@ -52,23 +83,22 @@ class FilterRetrievedDocuments:
           elif "base" in query_lower:
               filter_dict["category"] = ["heroes-base"]
           else:
-              # Default categories if no specific keyword is found
               filter_dict["category"] = ["heroes", "heroes-abilities", "heroes-base", "heroes-talents"]
 
       elif any(item in query_lower for item in items_set):
-          # If the query is about an item
           item_id = next(item for item in items_set if item in query_lower)
           filter_dict["item_id"] = item_id
           filter_dict["category"] = "items"
 
       elif any(ability in query_lower for ability in abilities_set):
-          # If the query is about a specific skill
           ability_id = next(ability for ability in abilities_set if ability in query_lower)
           filter_dict["ability_id"] = ability_id
           filter_dict["category"] = "heroes-abilities"
 
+      elif "item" in query_lower:
+          filter_dict["category"] = "items"
+
       elif "summarize" in query_lower or "updates" in query_lower:
-          # If the query is about general patch updates, exclude 'category' from filters
           filter_dict.pop("category", None)  # Remove 'category' if it exists
 
       return filter_dict
