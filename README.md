@@ -3,7 +3,7 @@ RAG App for DOTA 2 Patch Notes
 
 ### Overview
 
-This project showcases how Retrieval-Augmented Generation (RAG) can deliver accurate and source-grounded responses by leveraging Large Language Models (LLMs) alongside domain-specific knowledge repositories.
+This demo project showcases how Retrieval-Augmented Generation (RAG) can deliver accurate and source-grounded responses by leveraging Large Language Models (LLMs) alongside domain-specific knowledge repositories.
 Designed as a demo app focused on DOTA 2 Patch Notes, it allows users to query updates related to heroes, items, and abilities across different patches with high precision. The app addresses the challenge of AI hallucinations by integrating LangChain, FAISS, and OpenAI to dynamically retrieve only the most relevant information.
 Instead of relying on web URLs as input sources, this project uses JSONLoader to process pre-downloaded and structured JSON files, ensuring faster and more consistent access to patch data.
 
