@@ -11,6 +11,7 @@ from src.utils.strainer import FilterRetrievedDocuments
 # --- Initialize Components ---
 
 # LLM and Vector Store
+## Langchain automatically finds the os-wide env var for OpenAI API key
 llm_obj = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 vector_store = FAISS.load_local(
     "./vectorstore_faiss",
