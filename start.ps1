@@ -70,6 +70,11 @@ if ($latestPatch -in $currentPatches) {
 } else {
     Write-Host "New patch detected ($latestPatch)! Updating patch notes..." -ForegroundColor Magenta
 
+    # --- APPEND THE LATEST PATCH
+     Write-Host "Appending new patch ($latestPatch) to list_patchnotes.csv..." -ForegroundColor Yellow
+     Add-Content -Path $listPatchnotesCSV -Value "`n$latestPatch"
+     Write-Host "Patch ($latestPatch) added to list_patchnotes.csv!" -ForegroundColor Green
+
     # --- RUN UPDATE SCRIPTS ---
     Write-Host "Downloading patch notes..." -ForegroundColor Yellow
     & $pythonCmd -m src.init_setup.download_patch_notes

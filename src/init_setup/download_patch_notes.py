@@ -13,7 +13,7 @@ for p in list_patches:
     data = response.json()
     # Save into a file
     # Save the JSON response to a file for JSONLoader to read
-    with open(f"../patchnotes/{p}.json", "w") as f:
+    with open(f"patchnotes/{p}.json", "w") as f:
         json.dump(data, f)
         print(f"Saved {p}.json")
     
